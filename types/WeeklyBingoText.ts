@@ -1,0 +1,42 @@
+export interface WeeklyBingoTextIndex {
+  Pagination: Pagination;
+  Results:    Result[];
+}
+
+export interface Pagination {
+  Page:           number;
+  PageNext:       number;
+  PagePrev:       number;
+  PageTotal:      number;
+  Results:        number;
+  ResultsPerPage: number;
+  ResultsTotal:   number;
+}
+
+export interface Result {
+  ID:   number;
+  Icon: null;
+  Name: null;
+  Url:  string;
+}
+
+
+export interface WeeklyBingoText1 {
+  Description:      string;
+  Description_de:   string;
+  Description_en:   string;
+  Description_fr:   string;
+  Description_ja:   string;
+  GameContentLinks: GameContentLinks;
+  ID:               number;
+  Patch:            null;
+  Url:              string;
+}
+
+export interface GameContentLinks {
+  WeeklyBingoOrderData: WeeklyBingoOrderData;
+}
+
+export interface WeeklyBingoOrderData {
+  Text: number[];
+}
