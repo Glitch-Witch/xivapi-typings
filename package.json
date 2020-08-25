@@ -1,0 +1,27 @@
+{
+  "name": "xivapi-typings",
+  "version": "1.0.0",
+  "description": "Typescript typings for https://xivapi.com",
+  "main": "typebuilder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Glitch-Witch/xivapi-typings.git"
+  },
+  "author": "Glith-Witch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Glitch-Witch/xivapi-typings/issues"
+  },
+  "homepage": "https://github.com/Glitch-Witch/xivapi-typings#readme",
+  "devDependencies": {
+    "@types/node": "^14.6.0"
+  },
+  "dependencies": {
+    "ky": "^0.23.0",
+    "ky-universal": "^0.8.1",
+    "quicktype-core": "^6.0.68"
+  }
+}

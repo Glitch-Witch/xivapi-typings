@@ -1,0 +1,1 @@
+Create a `.env` file containing `PRIVATE_KEY="your xivapi dev key here"` before running.
