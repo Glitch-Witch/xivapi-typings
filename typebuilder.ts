@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 import ky from "ky-universal";
 
 import { jsonInputForTargetLanguage, InputData, quicktype } from "quicktype-core";
@@ -28,13 +30,18 @@ async function quicktypeJSON(targetLanguage: string, typeName: string, jsonStrin
 }
 
 async function typeFromEndpoint(endpoint: string) {
-  const indexResults = await api.get(endpoint).text();
-  const itemResult = await api.get(`${endpoint}/1`).text();
-  const indexType = await quicktypeJSON("typescript", `${endpoint}Index`, indexResults)
-  const itemType = await quicktypeJSON("typescript", endpoint, itemResult);
-  const text = indexType.lines.join("\n") + "\n\n" + itemType.lines.join("\n");
-  const filename = path.resolve(__dirname, "types", `${endpoint}.ts`);
-  return await fs.writeFile(filename, text, "utf-8");
+  try {
+    const indexResults = await api.get(endpoint).text();
+    const itemResult = await api.get(`${endpoint}/1`).text();
+    const indexType = await quicktypeJSON("typescript", `${endpoint}Index`, indexResults)
+    const itemType = await quicktypeJSON("typescript", endpoint, itemResult);
+    const text = indexType.lines.join("\n") + "\n\n" + itemType.lines.join("\n");
+    const filename = path.resolve(__dirname, "types", `${endpoint}.ts`);
+    return await fs.writeFile(filename, text, "utf-8");
+  } catch(ex) {
+    console.trace(ex);
+    throw ex;
+  }
 }
 
 export async function main() {
