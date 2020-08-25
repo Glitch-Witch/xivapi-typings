@@ -4,6 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.main = void 0;
+require("dotenv").config();
 const ky_universal_1 = __importDefault(require("ky-universal"));
 const quicktype_core_1 = require("quicktype-core");
 const promises_1 = __importDefault(require("fs/promises"));
@@ -24,13 +25,19 @@ async function quicktypeJSON(targetLanguage, typeName, jsonString) {
     });
 }
 async function typeFromEndpoint(endpoint) {
-    const indexResults = await api.get(endpoint).text();
-    const itemResult = await api.get(`${endpoint}/1`).text();
-    const indexType = await quicktypeJSON("typescript", `${endpoint}Index`, indexResults);
-    const itemType = await quicktypeJSON("typescript", endpoint, itemResult);
-    const text = indexType.lines.join("\n") + "\n\n" + itemType.lines.join("\n");
-    const filename = path_1.default.resolve(__dirname, "types", `${endpoint}.ts`);
-    return await promises_1.default.writeFile(filename, text, "utf-8");
+    try {
+        const indexResults = await api.get(endpoint).text();
+        const itemResult = await api.get(`${endpoint}/1`).text();
+        const indexType = await quicktypeJSON("typescript", `${endpoint}Index`, indexResults);
+        const itemType = await quicktypeJSON("typescript", endpoint, itemResult);
+        const text = indexType.lines.join("\n") + "\n\n" + itemType.lines.join("\n");
+        const filename = path_1.default.resolve(__dirname, "types", `${endpoint}.ts`);
+        return await promises_1.default.writeFile(filename, text, "utf-8");
+    }
+    catch (ex) {
+        console.trace(ex);
+        throw ex;
+    }
 }
 async function main() {
     const content = await api.get("content").json();
