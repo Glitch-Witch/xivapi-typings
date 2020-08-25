@@ -9,7 +9,7 @@ const quicktype_core_1 = require("quicktype-core");
 const promises_1 = __importDefault(require("fs/promises"));
 const path_1 = __importDefault(require("path"));
 const APIBASE = "https://xivapi.com";
-const api = ky_universal_1.default.extend({ prefixUrl: APIBASE });
+const api = ky_universal_1.default.extend({ prefixUrl: APIBASE, searchParams: { private_key: process.env.PRIVATE_KEY } });
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 async function quicktypeJSON(targetLanguage, typeName, jsonString) {
     const jsonInput = quicktype_core_1.jsonInputForTargetLanguage(targetLanguage);
@@ -48,8 +48,5 @@ async function main() {
     }
 }
 exports.main = main;
-async function example() {
-    await typeFromEndpoint("Action");
-}
-example();
+main();
 //# sourceMappingURL=typebuilder.js.map
