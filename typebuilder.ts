@@ -9,7 +9,11 @@ import path from "path";
 
 const APIBASE = "https://xivapi.com";
 
-const api = ky.extend({ prefixUrl: APIBASE, searchParams: { private_key: process.env.PRIVATE_KEY } });
+const api = ky.extend({
+  prefixUrl: APIBASE,
+  searchParams: { private_key: process.env.PRIVATE_KEY },
+  retry: 1
+});
 
 const sleep = (ms: number)=> new Promise((resolve)=> setTimeout(resolve, ms));
 
@@ -29,13 +33,46 @@ async function quicktypeJSON(targetLanguage: string, typeName: string, jsonStrin
   });
 }
 
-async function typeFromEndpoint(endpoint: string) {
+async function typeFromEndpoint(endpoint: string, isIndex: boolean) {
   try {
-    const indexResults = await api.get(endpoint).text();
-    const itemResult = await api.get(`${endpoint}/1`).text();
-    const indexType = await quicktypeJSON("typescript", `${endpoint}Index`, indexResults)
-    const itemType = await quicktypeJSON("typescript", endpoint, itemResult);
-    const text = indexType.lines.join("\n") + "\n\n" + itemType.lines.join("\n");
+    const nameSuffix = isIndex ? "Index" : "";
+
+    const result = await api.get(`${endpoint}`);
+
+    let nexturl = "";
+
+    if (!result.status.toString().startsWith("2")) {
+      return {
+        text: "",
+        next: ""
+      };
+    }
+
+    if (isIndex) {
+      const jsondata = await result.clone().json();
+      nexturl = jsondata?.Results[0]?.Url ?? ""
+    }
+
+    const $type = await quicktypeJSON("typescript", `${endpoint}${nameSuffix}`, await result.text());
+    return {
+      text: $type.lines.join("\n"),
+      next: nexturl
+    }
+  } catch(ex) {
+    console.trace(ex);
+    return { text: "", next: "" };
+  }
+}
+
+async function typingFileFromEndpoint(endpoint: string) {
+  try {
+    let text: string = "";
+    const idx = await typeFromEndpoint(endpoint, true);
+    text += idx.text;
+    if (idx.next.length > 0) {
+      const mn = await typeFromEndpoint(idx.next.replace(/^\//, ""), false);
+      text += `\n\n${mn.text}`;
+    }
     const filename = path.resolve(__dirname, "types", `${endpoint}.ts`);
     return await fs.writeFile(filename, text, "utf-8");
   } catch(ex) {
@@ -52,7 +89,7 @@ export async function main() {
   for await (const endpoint of content) {
     if (!(limit++ % 10)) await sleep(1000);
     try {
-      await typeFromEndpoint(endpoint);
+      await typingFileFromEndpoint(endpoint);
     } catch(ex) {
       console.trace(ex)
       break;
