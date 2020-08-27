@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MateriaJoinRateGatherCraft1 {
+export interface MateriaJoinRateGatherCraft {
   GameContentLinks:   any[];
   "HQOvermeld%Slot0": number;
   "HQOvermeld%Slot1": number;

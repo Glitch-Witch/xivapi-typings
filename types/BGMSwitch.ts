@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BGMSwitch500000 {
+export interface BGMSwitch {
   BGM:                     null;
   BGMSystemDefine:         null;
   BGMSystemDefineTarget:   string;

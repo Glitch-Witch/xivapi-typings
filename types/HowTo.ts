@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HowTo1 {
+export interface HowTo {
   Category:         Category;
   CategoryTarget:   string;
   CategoryTargetID: number;

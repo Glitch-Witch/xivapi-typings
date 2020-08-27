@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface EurekaSphereElementAdjust1 {
+export interface EurekaSphereElementAdjust {
   GameContentLinks: any[];
   ID:               number;
   Patch:            null;

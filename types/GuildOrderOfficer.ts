@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GuildOrderOfficer1572864 {
+export interface GuildOrderOfficer {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface SatisfactionNpc1 {
+export interface SatisfactionNpc {
   "AddedIn5-30":         number;
   "AddedIn5-31":         number;
   DeliveriesPerWeek:     number;

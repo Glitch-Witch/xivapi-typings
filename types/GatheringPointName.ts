@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GatheringPointName1 {
+export interface GatheringPointName {
   Adjective:         number;
   Article:           number;
   GameContentLinks:  any[];

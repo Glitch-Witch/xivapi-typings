@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface TripleTriadCard1 {
+export interface TripleTriadCard {
   Description:        string;
   DescriptionJSON:    string[];
   DescriptionJSON_cn: null;

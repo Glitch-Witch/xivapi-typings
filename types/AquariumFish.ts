@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AquariumFish2 {
+export interface AquariumFish {
   AquariumWater:         AquariumWater;
   AquariumWaterTarget:   string;
   AquariumWaterTargetID: number;

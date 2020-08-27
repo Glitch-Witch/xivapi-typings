@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MinionRules1 {
+export interface MinionRules {
   Description:      string;
   Description_de:   string;
   Description_en:   string;

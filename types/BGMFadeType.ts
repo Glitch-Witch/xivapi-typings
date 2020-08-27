@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BGMFadeType1 {
+export interface BGMFadeType {
   FadeInStartTime:  number;
   FadeInTime:       number;
   FadeOutTime:      string;

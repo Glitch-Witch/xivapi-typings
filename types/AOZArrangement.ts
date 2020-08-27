@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AOZArrangement10 {
+export interface AOZArrangement {
   AOZContentBriefingBNpc:         AOZContentBriefingBNpc;
   AOZContentBriefingBNpcTarget:   string;
   AOZContentBriefingBNpcTargetID: number;

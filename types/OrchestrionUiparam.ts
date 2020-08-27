@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface OrchestrionUiparam1 {
+export interface OrchestrionUiparam {
   GameContentLinks:            any[];
   ID:                          number;
   OrchestrionCategory:         OrchestrionCategory;

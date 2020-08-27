@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Orchestrion1 {
+export interface Orchestrion {
   Description:        string;
   Description_de:     string;
   Description_en:     string;

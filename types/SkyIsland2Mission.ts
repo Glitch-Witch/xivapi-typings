@@ -1,4 +1,4 @@
-export interface SkyIsland2MissionIndex {
+export interface SkyIslandMissionIndex {
   Pagination: Pagination;
   Results:    Result[];
 }
@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface SkyIsland2Mission5 {
+export interface SkyIslandMission {
   GameContentLinks:   any[];
   GamePatch:          GamePatch;
   ID:                 number;

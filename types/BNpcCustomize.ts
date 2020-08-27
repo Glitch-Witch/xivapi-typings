@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BNpcCustomize1 {
+export interface BNpcCustomize {
   BodyType:            number;
   BustOrTone1:         number;
   ExtraFeature1:       number;

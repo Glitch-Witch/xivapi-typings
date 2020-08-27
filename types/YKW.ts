@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Ykw1 {
+export interface Ykw {
   GameContentLinks:  any[];
   GamePatch:         GamePatch;
   ID:                number;
@@ -404,7 +404,7 @@ export interface LoadingImage {
   ID: number;
 }
 
-export interface Location0Map {
+export interface LocationMap {
   DiscoveryArrayByte:      number;
   DiscoveryFlag:           number;
   DiscoveryIndex:          number;

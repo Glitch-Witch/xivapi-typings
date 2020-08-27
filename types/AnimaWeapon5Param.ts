@@ -1,4 +1,4 @@
-export interface AnimaWeapon5ParamIndex {
+export interface AnimaWeaponParamIndex {
   Pagination: Pagination;
   Results:    Result[];
 }
@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AnimaWeapon5Param1 {
+export interface AnimaWeaponParam {
   BaseParam:         BaseParam;
   BaseParamTarget:   string;
   BaseParamTargetID: number;
@@ -90,7 +90,7 @@ export interface GameContentLinks {
   AnimaWeapon5: AnimaWeapon5;
 }
 
-export interface AnimaWeapon5 {
+export interface AnimaWeapon {
   Parameter0: number[];
 }
 

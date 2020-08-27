@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface EquipSlotCategory1 {
+export interface EquipSlotCategory {
   Body:             number;
   Ears:             number;
   Feet:             number;

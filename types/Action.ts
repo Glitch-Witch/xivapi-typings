@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Action1 {
+export interface Action {
   ActionCategory:            ActionCategory;
   ActionCategoryTarget:      string;
   ActionCategoryTargetID:    number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MainCommand1 {
+export interface MainCommand {
   Category:                    number;
   Description:                 string;
   Description_de:              string;

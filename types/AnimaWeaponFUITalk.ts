@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AnimaWeaponFUITalk10 {
+export interface AnimaWeaponFUITalk {
   Dialogue:         Dialogue;
   DialogueTarget:   string;
   DialogueTargetID: number;

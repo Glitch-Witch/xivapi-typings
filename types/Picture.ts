@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Picture1 {
+export interface Picture {
   GameContentLinks: any[];
   ID:               number;
   Image:            string;

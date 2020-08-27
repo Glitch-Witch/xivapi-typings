@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GilShopItem2621440 {
+export interface GilShopItem {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               string;

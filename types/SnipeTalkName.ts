@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface SnipeTalkName1 {
+export interface SnipeTalkName {
   GameContentLinks: any[];
   ID:               number;
   Name:             string;

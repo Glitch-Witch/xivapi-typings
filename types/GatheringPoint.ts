@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GatheringPoint30000 {
+export interface GatheringPoint {
   Count:                        number;
   GameContentLinks:             any[];
   GamePatch:                    GatheringPoint30000_GamePatch;
@@ -50,7 +50,7 @@ export interface GatheringPoint30000 {
   Url:                          string;
 }
 
-export interface GatheringPoint30000_GamePatch {
+export interface GatheringPoint_GamePatch {
   Banner:      string;
   ExName:      string;
   ExVersion:   number;

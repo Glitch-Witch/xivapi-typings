@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface LogMessage1 {
+export interface LogMessage {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

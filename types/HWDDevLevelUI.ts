@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HWDDevLevelUI1 {
+export interface HWDDevLevelUI {
   GameContentLinks: any[];
   ID:               number;
   Patch:            null;

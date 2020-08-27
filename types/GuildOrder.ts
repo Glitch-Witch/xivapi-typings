@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GuildOrder1 {
+export interface GuildOrder {
   CompletionBonusExp: number;
   CompletionBonusGil: number;
   Description1:       string;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface RacingChocoboNameCategory1 {
+export interface RacingChocoboNameCategory {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

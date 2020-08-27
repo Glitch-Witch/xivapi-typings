@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Lobby1 {
+export interface Lobby {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

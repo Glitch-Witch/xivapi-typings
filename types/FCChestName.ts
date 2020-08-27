@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface FCChestName1 {
+export interface FCChestName {
   GameContentLinks: any[];
   ID:               number;
   Name:             string;

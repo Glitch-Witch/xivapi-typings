@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GatheringLeve131072 {
+export interface GatheringLeve {
   BNpcEntry:             null;
   BNpcEntryTarget:       string;
   BNpcEntryTargetID:     number;

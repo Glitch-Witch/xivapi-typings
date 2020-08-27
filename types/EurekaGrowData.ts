@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface EurekaGrowData1 {
+export interface EurekaGrowData {
   BaseResistance:   number;
   GameContentLinks: any[];
   ID:               number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GrandCompanyRank1 {
+export interface GrandCompanyRank {
   GameContentLinks:       GameContentLinks;
   ID:                     number;
   IconFlames:             string;

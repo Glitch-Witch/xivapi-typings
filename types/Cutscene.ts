@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Cutscene1 {
+export interface Cutscene {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

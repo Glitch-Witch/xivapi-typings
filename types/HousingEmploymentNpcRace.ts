@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HousingEmploymentNpcRace1 {
+export interface HousingEmploymentNpcRace {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Patch:            null;

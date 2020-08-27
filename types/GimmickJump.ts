@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GimmickJump1 {
+export interface GimmickJump {
   EndMotion:          null;
   EndMotionTarget:    string;
   EndMotionTargetID:  number;

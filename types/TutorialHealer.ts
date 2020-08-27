@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface TutorialHealer1 {
+export interface TutorialHealer {
   GameContentLinks:  any[];
   ID:                number;
   Objective:         TutorialHealer1_Objective;
@@ -31,7 +31,7 @@ export interface TutorialHealer1 {
   Url:               string;
 }
 
-export interface TutorialHealer1_Objective {
+export interface TutorialHealer_Objective {
   Exp:                  number;
   Gil:                  number;
   ID:                   number;

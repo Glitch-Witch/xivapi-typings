@@ -1,4 +1,4 @@
-export interface Relic3Index {
+export interface RelicIndex {
   Pagination: Pagination;
   Results:    Result[];
 }
@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Relic31 {
+export interface Relic {
   GameContentLinks:   any[];
   ID:                 number;
   Icon:               string;

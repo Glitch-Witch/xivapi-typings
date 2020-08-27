@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Town1 {
+export interface Town {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

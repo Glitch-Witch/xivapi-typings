@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface RecastNavimesh11 {
+export interface RecastNavimesh {
   AgentHeight:              number;
   AgentMaxClimb:            string;
   AgentMaxSlope:            number;

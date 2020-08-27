@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Guide1 {
+export interface Guide {
   GameContentLinks:   GameContentLinks;
   GuidePage:          null;
   GuidePageTarget:    string;

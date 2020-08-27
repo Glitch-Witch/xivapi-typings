@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface SecretRecipeBook1 {
+export interface SecretRecipeBook {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GCScripShopCategory1 {
+export interface GCScripShopCategory {
   GameContentLinks:     any[];
   GrandCompany:         GrandCompany;
   GrandCompanyTarget:   string;

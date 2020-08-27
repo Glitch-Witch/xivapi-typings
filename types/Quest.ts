@@ -31,7 +31,7 @@ export enum Icon {
 }
 
 
-export interface Quest65536_Class {
+export interface Quest_Class {
   ACN?:                        number;
   ADV?:                        number;
   ALC?:                        number;

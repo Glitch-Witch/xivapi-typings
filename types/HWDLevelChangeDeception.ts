@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HWDLevelChangeDeception1 {
+export interface HWDLevelChangeDeception {
   GameContentLinks: any[];
   ID:               number;
   Image:            null;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface UIColor1 {
+export interface UIColor {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

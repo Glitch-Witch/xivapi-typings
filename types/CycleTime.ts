@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CycleTime1 {
+export interface CycleTime {
   Cycle:            number;
   FirstCycle:       number;
   GameContentLinks: any[];

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CompanyCraftSupplyItem1 {
+export interface CompanyCraftSupplyItem {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CustomTalkDynamicIcon10 {
+export interface CustomTalkDynamicIcon {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               string;

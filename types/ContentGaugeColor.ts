@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ContentGaugeColor1 {
+export interface ContentGaugeColor {
   AndroidColor1:    string;
   AndroidColor2:    string;
   AndroidColor3:    string;

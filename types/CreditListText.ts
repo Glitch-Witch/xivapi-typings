@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CreditListText1 {
+export interface CreditListText {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

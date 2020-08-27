@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ContentNpcTalk1 {
+export interface ContentNpcTalk {
   ContentTalk0:         ContentTalk;
   ContentTalk0Target:   string;
   ContentTalk0TargetID: number;

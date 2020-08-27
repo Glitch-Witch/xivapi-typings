@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CharaMakeCustomize1 {
+export interface CharaMakeCustomize {
   Data:             number;
   FeatureID:        number;
   GameContentLinks: any[];

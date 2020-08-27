@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HairMakeType1 {
+export interface HairMakeType {
   GameContentLinks: any[];
   Gender:           number;
   ID:               number;

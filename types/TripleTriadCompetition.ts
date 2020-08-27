@@ -28,7 +28,7 @@ export enum Name {
 }
 
 
-export interface TripleTriadCompetition1 {
+export interface TripleTriadCompetition {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

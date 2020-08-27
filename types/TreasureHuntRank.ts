@@ -28,7 +28,7 @@ export enum Icon {
 }
 
 
-export interface TreasureHuntRank1 {
+export interface TreasureHuntRank {
   GameContentLinks:    any[];
   ID:                  number;
   Icon:                string;

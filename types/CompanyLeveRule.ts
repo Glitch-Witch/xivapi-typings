@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CompanyLeveRule1 {
+export interface CompanyLeveRule {
   GameContentLinks:  GameContentLinks;
   GamePatch:         GamePatch;
   Help:              Help;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BuddyRank1 {
+export interface BuddyRank {
   ExpRequired:      number;
   GameContentLinks: any[];
   ID:               number;

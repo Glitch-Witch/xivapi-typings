@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CompanyAction1 {
+export interface CompanyAction {
   Cost:             number;
   Description:      string;
   Description_de:   string;

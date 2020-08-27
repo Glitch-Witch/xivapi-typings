@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CollectablesShop3866624 {
+export interface CollectablesShop {
   GameContentLinks:    any[];
   ID:                  number;
   Name:                string;

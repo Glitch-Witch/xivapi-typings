@@ -1,4 +1,4 @@
-export interface MovieSubtitle500Index {
+export interface MovieSubtitleIndex {
   Pagination: Pagination;
   Results:    Result[];
 }
@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MovieSubtitle5001 {
+export interface MovieSubtitle {
   EndTime:          number;
   GameContentLinks: any[];
   ID:               number;

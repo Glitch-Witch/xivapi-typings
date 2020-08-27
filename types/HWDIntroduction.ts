@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HWDIntroduction1 {
+export interface HWDIntroduction {
   CustomTalk:         CustomTalk;
   CustomTalkTarget:   string;
   CustomTalkTargetID: number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HousingAppeal1 {
+export interface HousingAppeal {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

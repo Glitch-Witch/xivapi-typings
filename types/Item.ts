@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Item1 {
+export interface Item {
   AdditionalData:             number;
   Adjective:                  number;
   AetherialReduce:            number;

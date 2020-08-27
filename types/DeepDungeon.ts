@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface DeepDungeon1 {
+export interface DeepDungeon {
   AetherpoolArm:                       AetherpoolArm;
   AetherpoolArmTarget:                 string;
   AetherpoolArmTargetID:               number;

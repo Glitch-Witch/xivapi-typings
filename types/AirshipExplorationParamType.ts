@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AirshipExplorationParamType1 {
+export interface AirshipExplorationParamType {
   GameContentLinks: any[];
   ID:               number;
   Name:             string;

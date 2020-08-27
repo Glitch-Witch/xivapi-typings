@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface FCProfile1 {
+export interface FCProfile {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

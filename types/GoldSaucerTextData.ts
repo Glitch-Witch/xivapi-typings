@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GoldSaucerTextData1 {
+export interface GoldSaucerTextData {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

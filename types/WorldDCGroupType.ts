@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface WorldDCGroupType1 {
+export interface WorldDCGroupType {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

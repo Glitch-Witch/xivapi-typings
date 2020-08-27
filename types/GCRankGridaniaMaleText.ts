@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GCRankGridaniaMaleText1 {
+export interface GCRankGridaniaMaleText {
   Adjective:         number;
   Article:           number;
   GameContentLinks:  any[];

@@ -1,4 +1,4 @@
-export interface AnimaWeapon5Index {
+export interface AnimaWeaponIndex {
   Pagination: Pagination;
   Results:    Result[];
 }
@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AnimaWeapon51 {
+export interface AnimaWeapon {
   GameContentLinks:   any[];
   ID:                 number;
   Item:               Item;

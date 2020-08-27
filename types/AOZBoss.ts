@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AOZBoss1 {
+export interface AOZBoss {
   Boss:             Boss;
   BossTarget:       string;
   BossTargetID:     number;

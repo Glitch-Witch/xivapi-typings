@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Addon1 {
+export interface Addon {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

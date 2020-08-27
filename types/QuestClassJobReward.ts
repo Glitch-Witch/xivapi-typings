@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface QuestClassJobReward10 {
+export interface QuestClassJobReward {
   ClassJobCategory:         null;
   ClassJobCategoryTarget:   string;
   ClassJobCategoryTargetID: number;

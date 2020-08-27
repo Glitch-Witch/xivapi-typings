@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface PerformTransient1 {
+export interface PerformTransient {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

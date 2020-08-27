@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface DawnQuestAnnounce1 {
+export interface DawnQuestAnnounce {
   Content:          DawnQuestAnnounce1_Content;
   ContentTarget:    string;
   ContentTargetID:  number;
@@ -52,7 +52,7 @@ export interface DawnQuestAnnounce1 {
   Url:              string;
 }
 
-export interface DawnQuestAnnounce1_Content {
+export interface DawnQuestAnnounce_Content {
   Content:         ContentContent;
   ContentTarget:   string;
   ContentTargetID: number;

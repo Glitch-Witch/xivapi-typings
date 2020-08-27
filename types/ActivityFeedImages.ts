@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ActivityFeedImages1 {
+export interface ActivityFeedImages {
   ActivityFeedDE:    string;
   ActivityFeedDE_en: string;
   ActivityFeedEN:    string;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface WeatherReportReplace1 {
+export interface WeatherReportReplace {
   GameContentLinks:        any[];
   ID:                      number;
   Patch:                   null;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface PresetCameraAdjust1 {
+export interface PresetCameraAdjust {
   Elezen_F:         number;
   Elezen_M:         number;
   GameContentLinks: any[];

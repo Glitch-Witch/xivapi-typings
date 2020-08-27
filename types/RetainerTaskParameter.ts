@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface RetainerTaskParameter1 {
+export interface RetainerTaskParameter {
   GameContentLinks: GameContentLinks;
   GatheringDoL0:    number;
   GatheringDoL1:    number;

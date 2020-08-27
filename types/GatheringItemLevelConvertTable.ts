@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GatheringItemLevelConvertTable1 {
+export interface GatheringItemLevelConvertTable {
   GameContentLinks:   GameContentLinks;
   GatheringItemLevel: number;
   ID:                 number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MovieSubtitleVoyage1 {
+export interface MovieSubtitleVoyage {
   EndTime:          number;
   GameContentLinks: any[];
   ID:               number;

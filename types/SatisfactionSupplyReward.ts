@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface SatisfactionSupplyReward1 {
+export interface SatisfactionSupplyReward {
   GameContentLinks:        GameContentLinks;
   GilHigh:                 number;
   GilLow:                  number;

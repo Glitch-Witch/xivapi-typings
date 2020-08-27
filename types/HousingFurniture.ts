@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HousingFurniture196608 {
+export interface HousingFurniture {
   AquariumTier:        number;
   CustomTalk:          null;
   CustomTalkTarget:    string;

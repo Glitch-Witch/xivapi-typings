@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Relic1 {
+export interface Relic {
   GameContentLinks:        any[];
   ID:                      number;
   Icon:                    string;
@@ -710,7 +710,7 @@ export interface Materia {
   Value9:            number;
 }
 
-export interface NoteMain0 {
+export interface NoteMain {
   EventItem:                        EventItem;
   EventItemTarget:                  EventItemTarget;
   EventItemTargetID:                number;
@@ -1022,7 +1022,7 @@ export enum StatusText0Ja {
   黒渦団の補給兵の数 = "黒渦団の補給兵の数",
 }
 
-export interface Leve0Class {
+export interface LeveClass {
   AllowanceCost:              number;
   BGM:                        Bgm;
   BGMTarget:                  Target;
@@ -1309,7 +1309,7 @@ export enum TownNameJa {
   リムサ・ロミンサ = "リムサ・ロミンサ",
 }
 
-export interface NoteSelection3Leve1 {
+export interface NoteSelectionLeve {
   AllowanceCost:              number;
   BGM:                        Bgm;
   BGMTarget:                  Target;
@@ -1381,7 +1381,7 @@ export interface NoteSelection3Leve1 {
   TownTargetID:               number;
 }
 
-export interface Leve2LevelLevemete {
+export interface LeveLevelLevemete {
   EventId:   number;
   ID:        number;
   Map:       number;
@@ -1453,7 +1453,7 @@ export enum BNpcNameTarget {
   BNpcName = "BNpcName",
 }
 
-export interface NoteMain1Class {
+export interface NoteMainClass {
   EventItem:                        EventItem;
   EventItemTarget:                  EventItemTarget;
   EventItemTargetID:                number;
@@ -1536,7 +1536,7 @@ export interface NoteMain1Class {
   PlaceNameFate2TargetID:           number;
 }
 
-export interface NoteMain2Class {
+export interface NoteMainClass {
   EventItem:                        EventItem;
   EventItemTarget:                  EventItemTarget;
   EventItemTargetID:                number;
@@ -1619,7 +1619,7 @@ export interface NoteMain2Class {
   PlaceNameFate2TargetID:           number;
 }
 
-export interface Leve1 {
+export interface Leve {
   AllowanceCost:              number;
   BGM:                        Bgm;
   BGMTarget:                  Target;
@@ -1705,7 +1705,7 @@ export interface PurpleLevelLevemete {
   Z:         string;
 }
 
-export interface NoteSelection3 {
+export interface NoteSelection {
   EventItem:                        EventItem;
   EventItemTarget:                  EventItemTarget;
   EventItemTargetID:                number;
@@ -1788,7 +1788,7 @@ export interface NoteSelection3 {
   PlaceNameFate2TargetID:           number;
 }
 
-export interface Leve0 {
+export interface Leve {
   AllowanceCost:              number;
   BGM:                        Bgm;
   BGMTarget:                  Target;
@@ -1873,7 +1873,7 @@ export interface LeveAssignmentTypeClass {
   IsFaction?:       number;
 }
 
-export interface NoteSub0 {
+export interface NoteSub {
   EventItem:                        EventItem;
   EventItemTarget:                  EventItemTarget;
   EventItemTargetID:                number;

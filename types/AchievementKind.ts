@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AchievementKind1 {
+export interface AchievementKind {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

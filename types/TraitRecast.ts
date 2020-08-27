@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface TraitRecast1 {
+export interface TraitRecast {
   Action:           null;
   ActionTarget:     string;
   ActionTargetID:   number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface DeepDungeonEquipment1 {
+export interface DeepDungeonEquipment {
   Adjective:         number;
   Article:           number;
   Description:       string;

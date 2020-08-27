@@ -1,4 +1,4 @@
-export interface SkyIsland2MissionDetailIndex {
+export interface SkyIslandMissionDetailIndex {
   Pagination: Pagination;
   Results:    Result[];
 }
@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface SkyIsland2MissionDetail10 {
+export interface SkyIslandMissionDetail {
   EObj:             null;
   EObjTarget:       string;
   EObjTargetID:     number;
@@ -47,7 +47,7 @@ export interface GameContentLinks {
   SkyIsland2Mission: SkyIsland2Mission;
 }
 
-export interface SkyIsland2Mission {
+export interface SkyIslandMission {
   Objective1: number[];
 }
 

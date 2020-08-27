@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GuidePageString1 {
+export interface GuidePageString {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

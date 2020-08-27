@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface FCCrestSymbol1 {
+export interface FCCrestSymbol {
   ColorNum:         number;
   FCRight:          number;
   GameContentLinks: any[];

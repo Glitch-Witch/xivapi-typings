@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface DeliveryQuest1 {
+export interface DeliveryQuest {
   GameContentLinks: any[];
   ID:               number;
   Patch:            null;

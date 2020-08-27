@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MountCustomize1 {
+export interface MountCustomize {
   AuRaFemaleCameraHeight:        number;
   AuRaFemaleScale:               number;
   AuRaMaleCameraHeight:          number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GCSupplyDutyReward1 {
+export interface GCSupplyDutyReward {
   ExperienceProvisioning: number;
   ExperienceSupply:       number;
   GameContentLinks:       any[];

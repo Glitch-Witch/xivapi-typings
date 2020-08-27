@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AetherCurrent2818048 {
+export interface AetherCurrent {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

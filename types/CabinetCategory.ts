@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CabinetCategory1 {
+export interface CabinetCategory {
   Category:         Category;
   CategoryTarget:   string;
   CategoryTargetID: number;

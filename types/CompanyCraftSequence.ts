@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CompanyCraftSequence1 {
+export interface CompanyCraftSequence {
   Category:                          number;
   CompanyCraftDraft:                 null;
   CompanyCraftDraftCategory:         null;
@@ -67,7 +67,7 @@ export interface CompanyCraftSequence1 {
   Url:                               string;
 }
 
-export interface CompanyCraftPart0 {
+export interface CompanyCraftPart {
   CompanyCraftProcess0:         CompanyCraftProcess;
   CompanyCraftProcess0Target:   string;
   CompanyCraftProcess0TargetID: number;

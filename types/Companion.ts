@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Companion1 {
+export interface Companion {
   Adjective:                            number;
   Article:                              number;
   Attack:                               number;

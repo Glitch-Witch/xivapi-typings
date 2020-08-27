@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface FCActivityCategory1 {
+export interface FCActivityCategory {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Name:             string;

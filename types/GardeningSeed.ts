@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GardeningSeed1 {
+export interface GardeningSeed {
   GameContentLinks: any[];
   ID:               number;
   Icon:             string;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Tutorial1 {
+export interface Tutorial {
   Exp:                  number;
   GameContentLinks:     GameContentLinks;
   Gil:                  number;

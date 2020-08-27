@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GilShop262144 {
+export interface GilShop {
   AcceptTalk:         null;
   AcceptTalkTarget:   string;
   AcceptTalkTargetID: number;

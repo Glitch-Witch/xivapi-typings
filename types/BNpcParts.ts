@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BNpcParts1 {
+export interface BNpcParts {
   BNpcBase1:         BNpcBase1;
   BNpcBase1Target:   string;
   BNpcBase1TargetID: number;
@@ -68,7 +68,7 @@ export interface BNpcParts1 {
   Z5:                number;
 }
 
-export interface BNpcBase1 {
+export interface BNpcBase {
   ArrayEventHandler:         null;
   ArrayEventHandlerTarget:   string;
   ArrayEventHandlerTargetID: number;

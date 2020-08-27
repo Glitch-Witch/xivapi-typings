@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HWDInfoBoardArticleType1 {
+export interface HWDInfoBoardArticleType {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

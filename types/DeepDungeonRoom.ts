@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface DeepDungeonRoom1 {
+export interface DeepDungeonRoom {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;
@@ -48,7 +48,7 @@ export interface GameContentLinks {
   DeepDungeonMap5X: DeepDungeonMap5X;
 }
 
-export interface DeepDungeonMap5X {
+export interface DeepDungeonMapX {
   DeepDungeonRoom0: string[];
 }
 

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface LotteryExchangeShop3407872 {
+export interface LotteryExchangeShop {
   AmountAccepted0:        number;
   AmountAccepted1:        number;
   AmountAccepted10:       number;

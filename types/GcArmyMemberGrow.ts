@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GcArmyMemberGrow1 {
+export interface GcArmyMemberGrow {
   ClassBook:         ClassBook;
   ClassBookTarget:   string;
   ClassBookTargetID: number;

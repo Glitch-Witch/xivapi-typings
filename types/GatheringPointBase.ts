@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GatheringPointBase1 {
+export interface GatheringPointBase {
   GameContentLinks:      any[];
   GatheringLevel:        number;
   GatheringType:         GatheringType;

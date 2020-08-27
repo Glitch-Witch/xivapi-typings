@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface InstanceContentTextData1 {
+export interface InstanceContentTextData {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

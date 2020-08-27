@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HugeCraftworksNpc1 {
+export interface HugeCraftworksNpc {
   ClassJobCategory:         ClassJobCategory;
   ClassJobCategoryTarget:   ClassJobCategoryTarget;
   ClassJobCategoryTargetID: number;

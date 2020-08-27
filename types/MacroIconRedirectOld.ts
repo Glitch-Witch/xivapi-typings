@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MacroIconRedirectOld1 {
+export interface MacroIconRedirectOld {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

@@ -26,7 +26,7 @@ export enum Name {
 }
 
 
-export interface PublicContent1 {
+export interface PublicContent {
   AdditionalData:                 number;
   ContentFinderCondition:         null;
   ContentFinderConditionTarget:   string;

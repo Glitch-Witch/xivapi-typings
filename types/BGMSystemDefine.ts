@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BGMSystemDefine1 {
+export interface BGMSystemDefine {
   Define:           string;
   GameContentLinks: GameContentLinks;
   ID:               number;

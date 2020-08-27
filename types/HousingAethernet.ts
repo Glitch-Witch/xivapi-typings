@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HousingAethernet1966080 {
+export interface HousingAethernet {
   GameContentLinks:      any[];
   GamePatch:             GamePatch;
   ID:                    number;

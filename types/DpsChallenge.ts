@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface DpsChallenge1 {
+export interface DpsChallenge {
   Description:                      string;
   Description_de:                   string;
   Description_en:                   string;

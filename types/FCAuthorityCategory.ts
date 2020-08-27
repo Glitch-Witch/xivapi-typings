@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface FCAuthorityCategory1 {
+export interface FCAuthorityCategory {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HousingMapMarkerInfo3391 {
+export interface HousingMapMarkerInfo {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               string;
@@ -56,7 +56,7 @@ export interface GamePatch {
   Version:       string;
 }
 
-export interface HousingMapMarkerInfo3391_Map {
+export interface HousingMapMarkerInfo_Map {
   DiscoveryArrayByte:      number;
   DiscoveryFlag:           number;
   DiscoveryIndex:          string;

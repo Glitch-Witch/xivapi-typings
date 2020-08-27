@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface IndividualWeather1 {
+export interface IndividualWeather {
   "AddedIn5-30":    number;
   "AddedIn5-31":    number;
   GameContentLinks: any[];
@@ -66,7 +66,7 @@ export interface IndividualWeather1 {
   Weather5TargetID: number;
 }
 
-export interface Quest0Class {
+export interface QuestClass {
   ID:                     number;
   Image?:                 string;
   ImageID?:               number;
@@ -134,7 +134,7 @@ export enum PlaceNameRegionIcon {
   I122000122027PNG = "/i/122000/122027.png",
 }
 
-export interface Quest1Class {
+export interface QuestClass {
   ID:                     number;
   Image?:                 string;
   ImageID?:               number;
@@ -197,7 +197,7 @@ export interface Quest1Class {
   WeatherRate?:           number;
 }
 
-export interface Quest2Class {
+export interface QuestClass {
   ID:                     number;
   Image?:                 string;
   ImageID?:               number;
@@ -260,7 +260,7 @@ export interface Quest2Class {
   WeatherRate?:           number;
 }
 
-export interface Quest3Class {
+export interface QuestClass {
   ID:                     number;
   Image?:                 string;
   ImageID?:               number;
@@ -323,7 +323,7 @@ export interface Quest3Class {
   WeatherRate?:           number;
 }
 
-export interface Quest4Class {
+export interface QuestClass {
   ID:                     number;
   Image?:                 string;
   ImageID?:               number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface DpsChallengeOfficer3080192 {
+export interface DpsChallengeOfficer {
   ChallengeName0:          null;
   ChallengeName0Target:    string;
   ChallengeName0TargetID:  number;

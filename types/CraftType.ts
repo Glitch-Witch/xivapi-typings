@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CraftType0 {
+export interface CraftType {
   GameContentLinks: GameContentLinks;
   ID:               number;
   MainPhysical:     number;

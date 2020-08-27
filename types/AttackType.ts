@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AttackType1 {
+export interface AttackType {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

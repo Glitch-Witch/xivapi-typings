@@ -30,7 +30,7 @@ export interface Name {
 }
 
 
-export interface ChocoboRaceRank1 {
+export interface ChocoboRaceRank {
   Fee:              number;
   GameContentLinks: GameContentLinks;
   ID:               number;

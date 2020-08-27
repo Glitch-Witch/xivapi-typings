@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface RelicItem1 {
+export interface RelicItem {
   ArcanistSCHItem:         ArcanistSCHItemClass;
   ArcanistSCHItemTarget:   ArcanistSCHItemTargetEnum;
   ArcanistSCHItemTargetID: number;

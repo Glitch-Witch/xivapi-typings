@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ContentRouletteRoleBonus1 {
+export interface ContentRouletteRoleBonus {
   GameContentLinks:       GameContentLinks;
   ID:                     number;
   ItemRewardType:         ItemRewardType;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HWDCrafterSupplyReward1 {
+export interface HWDCrafterSupplyReward {
   ExpReward:          number;
   GameContentLinks:   GameContentLinks;
   ID:                 number;

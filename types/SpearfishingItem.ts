@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface SpearfishingItem20000 {
+export interface SpearfishingItem {
   Description:                string;
   Description_de:             string;
   Description_en:             string;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface EurekaMagiciteItem1 {
+export interface EurekaMagiciteItem {
   ClassJobCategory:               ClassJobCategory;
   ClassJobCategoryTarget:         string;
   ClassJobCategoryTargetID:       number;

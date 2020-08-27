@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GuildleveAssignment393216 {
+export interface GuildleveAssignment {
   "AddedIn5-3":           number;
   AssignmentTalk:         AssignmentTalk;
   AssignmentTalkTarget:   string;
@@ -59,7 +59,7 @@ export interface GamePatch {
   Version:     string;
 }
 
-export interface Quest0Class {
+export interface QuestClass {
   DataType?:              number;
   ID:                     number;
   JournalSection?:        number;

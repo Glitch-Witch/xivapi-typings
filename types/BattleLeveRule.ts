@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BattleLeveRule1 {
+export interface BattleLeveRule {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

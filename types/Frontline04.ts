@@ -1,4 +1,4 @@
-export interface Frontline04Index {
+export interface FrontlineIndex {
   Pagination: Pagination;
   Results:    Result[];
 }
@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Frontline041 {
+export interface Frontline {
   GameContentLinks:       any[];
   ID:                     number;
   Level1:                 Level1;
@@ -118,7 +118,7 @@ export interface Frontline041 {
   Url:                    string;
 }
 
-export interface Level1 {
+export interface Level {
   EventId:           number;
   ID:                number;
   Map:               Level1Map;
@@ -136,7 +136,7 @@ export interface Level1 {
   Z:                 string;
 }
 
-export interface Level1Map {
+export interface LevelMap {
   DiscoveryArrayByte:      number;
   DiscoveryFlag:           number;
   DiscoveryIndex:          string;

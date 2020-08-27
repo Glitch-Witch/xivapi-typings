@@ -1,4 +1,4 @@
-export interface SkyIsland2RangeTypeIndex {
+export interface SkyIslandRangeTypeIndex {
   Pagination: Pagination;
   Results:    Result[];
 }
@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface SkyIsland2RangeType1 {
+export interface SkyIslandRangeType {
   GameContentLinks: any[];
   ID:               number;
   Patch:            null;

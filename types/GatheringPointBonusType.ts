@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GatheringPointBonusType1 {
+export interface GatheringPointBonusType {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HousingMerchantPose1 {
+export interface HousingMerchantPose {
   ActionTimeline:         ActionTimeline;
   ActionTimelineTarget:   string;
   ActionTimelineTargetID: number;

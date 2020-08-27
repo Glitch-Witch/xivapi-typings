@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BuddyAction1 {
+export interface BuddyAction {
   Description:      string;
   Description_de:   string;
   Description_en:   string;

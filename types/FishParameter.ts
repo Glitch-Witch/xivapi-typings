@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface FishParameter1 {
+export interface FishParameter {
   FishingRecordType:            null;
   FishingRecordTypeTarget:      string;
   FishingRecordTypeTargetID:    number;

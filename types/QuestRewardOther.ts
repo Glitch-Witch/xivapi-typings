@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface QuestRewardOther1 {
+export interface QuestRewardOther {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

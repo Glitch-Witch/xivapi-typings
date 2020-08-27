@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface TextCommand1 {
+export interface TextCommand {
   Alias:            string;
   Alias_de:         string;
   Alias_en:         string;

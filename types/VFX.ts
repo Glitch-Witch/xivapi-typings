@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Vfx1 {
+export interface Vfx {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

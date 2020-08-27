@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GCRankLimsaFemaleText1 {
+export interface GCRankLimsaFemaleText {
   Adjective:         number;
   Article:           number;
   GameContentLinks:  any[];

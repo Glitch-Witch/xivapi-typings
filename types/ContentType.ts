@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ContentType1 {
+export interface ContentType {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

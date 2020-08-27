@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GatheringLeveRoute1 {
+export interface GatheringLeveRoute {
   GameContentLinks:         any[];
   GatheringPoint0:          null;
   GatheringPoint0Target:    string;

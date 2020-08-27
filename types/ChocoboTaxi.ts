@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ChocoboTaxi1 {
+export interface ChocoboTaxi {
   Fare:             number;
   GameContentLinks: any[];
   ID:               number;

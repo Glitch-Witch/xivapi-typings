@@ -1,4 +1,4 @@
-export interface AnimaWeapon5SpiritTalkParamIndex {
+export interface AnimaWeaponSpiritTalkParamIndex {
   Pagination: Pagination;
   Results:    Result[];
 }
@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AnimaWeapon5SpiritTalkParam1 {
+export interface AnimaWeaponSpiritTalkParam {
   Epilogue:         string;
   Epilogue_de:      string;
   Epilogue_en:      string;
@@ -43,7 +43,7 @@ export interface GameContentLinks {
   AnimaWeapon5SpiritTalk: AnimaWeapon5SpiritTalk;
 }
 
-export interface AnimaWeapon5SpiritTalk {
+export interface AnimaWeaponSpiritTalk {
   Dialogue: string[];
 }
 

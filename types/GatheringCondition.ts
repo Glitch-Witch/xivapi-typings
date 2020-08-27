@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GatheringCondition1 {
+export interface GatheringCondition {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

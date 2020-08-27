@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AchievementHideCondition1 {
+export interface AchievementHideCondition {
   GameContentLinks: GameContentLinks;
   HideAchievement:  number;
   HideConditions:   number;

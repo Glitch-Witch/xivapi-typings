@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BGMScene1 {
+export interface BGMScene {
   EnableDisableRestart: number;
   EnablePassEnd:        number;
   ForceAutoReset:       number;

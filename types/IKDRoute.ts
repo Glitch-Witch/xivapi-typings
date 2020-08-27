@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface IKDRoute1 {
+export interface IKDRoute {
   GameContentLinks:      GameContentLinks;
   GamePatch:             GamePatch;
   ID:                    number;
@@ -359,7 +359,7 @@ export enum TerritoryTypeTarget {
   TerritoryType = "TerritoryType",
 }
 
-export interface IKDRoute1_TerritoryType {
+export interface IKDRoute_TerritoryType {
   AchievementIndex:          string;
   "AddedIn5-3":              number;
   Aetheryte:                 null;

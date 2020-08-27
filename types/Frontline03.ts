@@ -1,4 +1,4 @@
-export interface Frontline03Index {
+export interface FrontlineIndex {
   Pagination: Pagination;
   Results:    Result[];
 }
@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Frontline031 {
+export interface Frontline {
   EmptyIcon0:            string;
   EmptyIcon0ID:          number;
   EmptyIcon1:            string;

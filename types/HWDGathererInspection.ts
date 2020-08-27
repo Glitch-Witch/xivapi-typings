@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HWDGathererInspection1_Class {
+export interface HWDGathererInspection_Class {
   AdditionalData?:             number;
   Adjective?:                  number;
   AetherialReduce?:            number;

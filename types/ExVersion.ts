@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ExVersion1 {
+export interface ExVersion {
   AcceptJingle:           Jingle;
   AcceptJingleTarget:     string;
   AcceptJingleTargetID:   number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HowToPage1 {
+export interface HowToPage {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

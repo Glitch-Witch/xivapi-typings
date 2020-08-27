@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Description3604480 {
+export interface Description {
   GameContentLinks:  any[];
   ID:                number;
   Patch:             null;

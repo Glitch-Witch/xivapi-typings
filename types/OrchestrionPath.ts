@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface OrchestrionPath1 {
+export interface OrchestrionPath {
   File:             string;
   File_en:          string;
   GameContentLinks: any[];

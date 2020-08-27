@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ItemLevel1 {
+export interface ItemLevel {
   AdditionalEffect:        number;
   AttackMagicPotency:      number;
   AttackPower:             number;

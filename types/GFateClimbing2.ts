@@ -1,4 +1,4 @@
-export interface GFateClimbing2Index {
+export interface GFateClimbingIndex {
   Pagination: Pagination;
   Results:    Result[];
 }
@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GFateClimbing21 {
+export interface GFateClimbing {
   ContentEntry:         ContentEntry;
   ContentEntryTarget:   string;
   ContentEntryTargetID: number;

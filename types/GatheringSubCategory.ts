@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GatheringSubCategory2000 {
+export interface GatheringSubCategory {
   ClassJob:              ClassJob;
   ClassJobTarget:        string;
   ClassJobTargetID:      number;

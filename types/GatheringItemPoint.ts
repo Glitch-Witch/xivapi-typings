@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GatheringItemPoint10 {
+export interface GatheringItemPoint {
   GameContentLinks:       any[];
   GamePatch:              GamePatch;
   GatheringPoint:         GatheringPoint;
@@ -107,7 +107,7 @@ export interface GatheringType {
   Name_ja:    string;
 }
 
-export interface GatheringPointBonus0 {
+export interface GatheringPointBonus {
   "AddedIn5-3":      number;
   BonusType:         BonusType;
   BonusTypeTarget:   string;

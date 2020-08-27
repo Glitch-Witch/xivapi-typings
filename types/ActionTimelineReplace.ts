@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ActionTimelineReplace1 {
+export interface ActionTimelineReplace {
   GameContentLinks: any[];
   ID:               number;
   New:              New;

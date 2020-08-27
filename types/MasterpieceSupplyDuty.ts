@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MasterpieceSupplyDuty1 {
+export interface MasterpieceSupplyDuty {
   BonusMultiplier0:         BonusMultiplier;
   BonusMultiplier0Target:   string;
   BonusMultiplier0TargetID: number;
@@ -163,7 +163,7 @@ export interface BonusMultiplier {
   XpMultiplier1:       number;
 }
 
-export interface MasterpieceSupplyDuty1_ClassJob {
+export interface MasterpieceSupplyDuty_ClassJob {
   Abbreviation:               string;
   Abbreviation_de:            string;
   Abbreviation_en:            string;
@@ -942,7 +942,7 @@ export interface ItemGlamourClass {
   StartsWithVowel:            number;
 }
 
-export interface RequiredItem0ClassJobUse {
+export interface RequiredItemClassJobUse {
   Abbreviation:               string;
   Abbreviation_de:            string;
   Abbreviation_en:            string;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface YardCatalogCategory1 {
+export interface YardCatalogCategory {
   Category:         string;
   Category_de:      string;
   Category_en:      string;

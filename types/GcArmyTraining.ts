@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GcArmyTraining1 {
+export interface GcArmyTraining {
   Description:      string;
   Description_de:   string;
   Description_en:   string;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Race1 {
+export interface Race {
   ExPac:             null;
   ExPacTarget:       string;
   ExPacTargetID:     number;

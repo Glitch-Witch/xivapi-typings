@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Festival1 {
+export interface Festival {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

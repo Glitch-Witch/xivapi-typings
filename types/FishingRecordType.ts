@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface FishingRecordType1 {
+export interface FishingRecordType {
   Addon:              Addon;
   AddonTarget:        string;
   AddonTargetID:      number;

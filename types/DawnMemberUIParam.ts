@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface DawnMemberUIParam1 {
+export interface DawnMemberUIParam {
   ClassPlural:      string;
   ClassPlural_de:   string;
   ClassPlural_en:   string;

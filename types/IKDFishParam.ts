@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface IKDFishParam1 {
+export interface IKDFishParam {
   Fish:                    Fish;
   FishTarget:              string;
   FishTargetID:            number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BeastRankBonus1 {
+export interface BeastRankBonus {
   "Allied/Bloodsworn": number;
   Friendly:            number;
   GameContentLinks:    GameContentLinks;

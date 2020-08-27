@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface SubmarineExploration1 {
+export interface SubmarineExploration {
   CeruleumTankReq:   number;
   Destination:       string;
   Destination_de:    string;

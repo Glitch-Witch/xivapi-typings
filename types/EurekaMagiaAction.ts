@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface EurekaMagiaAction1 {
+export interface EurekaMagiaAction {
   Action:           Action;
   ActionTarget:     string;
   ActionTargetID:   number;

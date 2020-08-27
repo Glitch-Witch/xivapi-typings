@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Status1 {
+export interface Status {
   CanDispel:         number;
   Category:          number;
   Description:       string;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface DeepDungeonFloorEffectUI1 {
+export interface DeepDungeonFloorEffectUI {
   Description:      string;
   Description_de:   string;
   Description_en:   string;

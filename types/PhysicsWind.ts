@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface PhysicsWind1 {
+export interface PhysicsWind {
   Amplitude:          string;
   AmplitudeFrequency: string;
   GameContentLinks:   any[];

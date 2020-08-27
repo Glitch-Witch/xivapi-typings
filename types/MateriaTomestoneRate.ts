@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MateriaTomestoneRate1 {
+export interface MateriaTomestoneRate {
   GameContentLinks: any[];
   ID:               number;
   Patch:            null;

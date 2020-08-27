@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ContentTalk1 {
+export interface ContentTalk {
   ContentTalkParam:         ContentTalkParam;
   ContentTalkParamTarget:   string;
   ContentTalkParamTargetID: number;

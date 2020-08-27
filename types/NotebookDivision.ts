@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface NotebookDivision1 {
+export interface NotebookDivision {
   ALCCraft:                         number;
   ARMCraft:                         number;
   BSMCraft:                         number;

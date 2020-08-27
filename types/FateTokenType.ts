@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface FateTokenType1 {
+export interface FateTokenType {
   Currency:         Currency;
   CurrencyTarget:   string;
   CurrencyTargetID: number;

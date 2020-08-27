@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface OrchestrionCategory1 {
+export interface OrchestrionCategory {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   HideCategory:     number;

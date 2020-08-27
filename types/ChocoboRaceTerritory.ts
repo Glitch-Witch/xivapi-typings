@@ -30,7 +30,7 @@ export interface Name {
 }
 
 
-export interface ChocoboRaceTerritory1 {
+export interface ChocoboRaceTerritory {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Icon:             string;

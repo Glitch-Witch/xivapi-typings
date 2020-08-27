@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface OnlineStatus1 {
+export interface OnlineStatus {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Carry1 {
+export interface Carry {
   GameContentLinks: any[];
   ID:               number;
   Model:            string;

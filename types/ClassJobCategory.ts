@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ClassJobCategory1 {
+export interface ClassJobCategory {
   ACN:              number;
   ADV:              number;
   ALC:              number;

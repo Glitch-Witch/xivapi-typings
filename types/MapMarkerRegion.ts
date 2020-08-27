@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MapMarkerRegion1 {
+export interface MapMarkerRegion {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Patch:            null;

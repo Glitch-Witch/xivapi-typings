@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface LeveAssignmentType1 {
+export interface LeveAssignmentType {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

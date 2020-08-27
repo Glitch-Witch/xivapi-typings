@@ -37,7 +37,7 @@ export interface Name {
 }
 
 
-export interface DeepDungeonStatus1 {
+export interface DeepDungeonStatus {
   GameContentLinks:    any[];
   ID:                  number;
   LogMessage:          LogMessage;

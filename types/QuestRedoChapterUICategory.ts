@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface QuestRedoChapterUICategory1 {
+export interface QuestRedoChapterUICategory {
   Expac:            string;
   Expac_de:         string;
   Expac_en:         string;

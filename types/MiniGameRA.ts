@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MiniGameRA1 {
+export interface MiniGameRA {
   BGM:              null;
   BGMTarget:        string;
   BGMTargetID:      number;

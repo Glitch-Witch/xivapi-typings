@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ActionTimeline1 {
+export interface ActionTimeline {
   ActionTimelineIDMode:     number;
   GameContentLinks:         any[];
   GamePatch:                GamePatch;

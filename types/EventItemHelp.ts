@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface EventItemHelp2000000 {
+export interface EventItemHelp {
   Description:      string;
   Description_de:   string;
   Description_en:   string;

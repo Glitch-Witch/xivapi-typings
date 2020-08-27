@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface RelicNoteCategory1 {
+export interface RelicNoteCategory {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

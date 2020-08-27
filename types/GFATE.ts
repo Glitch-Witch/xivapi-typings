@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Gfate1 {
+export interface Gfate {
   GameContentLinks: any[];
   ID:               number;
   Icon0:            string;

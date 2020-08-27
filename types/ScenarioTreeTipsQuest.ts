@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ScenarioTreeTipsQuest65536 {
+export interface ScenarioTreeTipsQuest {
   GameContentLinks: any[];
   ID:               number;
   Level:            null;

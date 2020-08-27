@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GcArmyExpeditionType1 {
+export interface GcArmyExpeditionType {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BattleLeve65536 {
+export interface BattleLeve {
   BNpcName0:              null;
   BNpcName0Target:        string;
   BNpcName0TargetID:      number;

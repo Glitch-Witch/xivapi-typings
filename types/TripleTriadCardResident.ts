@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface TripleTriadCardResident1 {
+export interface TripleTriadCardResident {
   Bottom:                        number;
   GameContentLinks:              any[];
   ID:                            number;

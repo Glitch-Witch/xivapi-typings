@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface EquipRaceCategory1 {
+export interface EquipRaceCategory {
   AuRa:             number;
   Elezen:           number;
   Female:           number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface LegacyQuest1 {
+export interface LegacyQuest {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   Genre:            number;

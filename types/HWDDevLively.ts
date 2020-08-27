@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HWDDevLively10 {
+export interface HWDDevLively {
   ENPC:             Enpc;
   ENPCTarget:       string;
   ENPCTargetID:     number;

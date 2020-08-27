@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface DescriptionSection10 {
+export interface DescriptionSection {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               string;

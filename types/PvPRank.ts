@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface PVPRank1 {
+export interface PVPRank {
   ExpRequired:      number;
   GameContentLinks: any[];
   ID:               number;

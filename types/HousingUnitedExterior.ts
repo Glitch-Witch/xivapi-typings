@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HousingUnitedExterior327680 {
+export interface HousingUnitedExterior {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

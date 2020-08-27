@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GoldSaucerArcadeMachine2359296 {
+export interface GoldSaucerArcadeMachine {
   Excellent:        string;
   ExcellentID:      number;
   FailImage:        string;

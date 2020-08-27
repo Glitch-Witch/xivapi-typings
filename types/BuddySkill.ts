@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BuddySkill1 {
+export interface BuddySkill {
   Attacker:         number;
   BuddyLevel:       number;
   Defender:         number;

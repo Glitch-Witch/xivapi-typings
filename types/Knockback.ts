@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Knockback1 {
+export interface Knockback {
   CancelMove:       number;
   Direction:        number;
   DirectionArg:     number;

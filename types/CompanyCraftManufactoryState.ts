@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CompanyCraftManufactoryState1 {
+export interface CompanyCraftManufactoryState {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

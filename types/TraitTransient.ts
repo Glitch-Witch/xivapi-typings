@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface TraitTransient1 {
+export interface TraitTransient {
   Description:      string;
   Description_de:   string;
   Description_en:   string;

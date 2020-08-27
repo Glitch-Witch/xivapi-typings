@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface FCActivity1 {
+export interface FCActivity {
   FCActivityCategory:         FCActivityCategory;
   FCActivityCategoryTarget:   string;
   FCActivityCategoryTargetID: number;

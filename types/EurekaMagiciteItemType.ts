@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface EurekaMagiciteItemType1 {
+export interface EurekaMagiciteItemType {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CollectablesShopRefine1 {
+export interface CollectablesShopRefine {
   GameContentLinks:   any[];
   HighCollectability: number;
   ID:                 number;

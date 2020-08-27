@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface JobHudManual1 {
+export interface JobHudManual {
   Action:           Action;
   ActionTarget:     string;
   ActionTargetID:   number;

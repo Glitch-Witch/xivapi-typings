@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface FurnitureCatalogCategory1 {
+export interface FurnitureCatalogCategory {
   Category:         string;
   Category_de:      string;
   Category_en:      string;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MountTransient1 {
+export interface MountTransient {
   Description:            string;
   DescriptionEnhanced:    string;
   DescriptionEnhanced_de: string;

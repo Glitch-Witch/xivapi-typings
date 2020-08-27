@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AquariumWater1 {
+export interface AquariumWater {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Name:             string;

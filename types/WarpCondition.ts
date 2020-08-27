@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface WarpCondition1 {
+export interface WarpCondition {
   ClassLevel:              number;
   CompleteParam:           number;
   DRequiredQuest3:         null;

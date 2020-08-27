@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface IKDRouteTable1 {
+export interface IKDRouteTable {
   GameContentLinks: any[];
   ID:               number;
   Patch:            null;

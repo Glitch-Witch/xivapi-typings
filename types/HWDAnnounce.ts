@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HWDAnnounce1 {
+export interface HWDAnnounce {
   ENPC:             null;
   ENPCTarget:       string;
   ENPCTargetID:     number;

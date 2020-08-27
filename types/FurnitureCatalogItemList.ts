@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface FurnitureCatalogItemList1 {
+export interface FurnitureCatalogItemList {
   Category:         null;
   CategoryTarget:   string;
   CategoryTargetID: number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface SubmarineMap1 {
+export interface SubmarineMap {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

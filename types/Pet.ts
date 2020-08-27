@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Pet1 {
+export interface Pet {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

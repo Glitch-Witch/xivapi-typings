@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface FccShop2752512 {
+export interface FccShop {
   Cost0:                   number;
   Cost1:                   number;
   Cost2:                   number;

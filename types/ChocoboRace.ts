@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ChocoboRace1 {
+export interface ChocoboRace {
   ChocoboRaceRank:              ChocoboRaceRank;
   ChocoboRaceRankTarget:        string;
   ChocoboRaceRankTargetID:      number;

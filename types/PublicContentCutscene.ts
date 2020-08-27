@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface PublicContentCutscene1 {
+export interface PublicContentCutscene {
   Cutscene:          Cutscene;
   Cutscene2:         null;
   Cutscene2Target:   string;

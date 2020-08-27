@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ArrayEventHandler851968 {
+export interface ArrayEventHandler {
   Data0:            number;
   Data1:            number;
   Data10:           number;

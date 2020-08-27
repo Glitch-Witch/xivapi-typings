@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface WeatherRate1 {
+export interface WeatherRate {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Patch:            null;

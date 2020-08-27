@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface YardCatalogItemList1 {
+export interface YardCatalogItemList {
   Category:         null;
   CategoryTarget:   string;
   CategoryTargetID: number;

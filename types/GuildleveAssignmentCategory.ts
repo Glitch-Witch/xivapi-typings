@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GuildleveAssignmentCategory1 {
+export interface GuildleveAssignmentCategory {
   Category0:         Category;
   Category0Target:   string;
   Category0TargetID: number;

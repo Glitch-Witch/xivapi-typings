@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Balloon1 {
+export interface Balloon {
   Dialogue:         string;
   Dialogue_de:      string;
   Dialogue_en:      string;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CompanyCraftType1 {
+export interface CompanyCraftType {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

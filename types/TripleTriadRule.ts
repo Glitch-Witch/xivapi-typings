@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface TripleTriadRule1 {
+export interface TripleTriadRule {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

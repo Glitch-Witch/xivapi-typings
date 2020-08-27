@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CutsceneMotion1 {
+export interface CutsceneMotion {
   BATTLERUN_LOOP_SPEED:  number;
   BATTLEWALK_LOOP_SPEED: number;
   DASH_LOOP_SPEED:       number;

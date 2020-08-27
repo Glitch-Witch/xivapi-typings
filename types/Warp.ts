@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Warp131072 {
+export interface Warp {
   CanSkipCutscene:               number;
   ConditionFailEvent:            null;
   ConditionFailEventTarget:      string;

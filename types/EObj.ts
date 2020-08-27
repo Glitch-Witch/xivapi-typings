@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface EObj2000000 {
+export interface EObj {
   "AddedIn5-3":      number;
   Data:              number;
   DirectorControl:   number;

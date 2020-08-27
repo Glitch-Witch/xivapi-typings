@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface StatusHitEffect1 {
+export interface StatusHitEffect {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Location:         Location;

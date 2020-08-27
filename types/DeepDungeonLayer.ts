@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface DeepDungeonLayer1 {
+export interface DeepDungeonLayer {
   ArmourMinLv:         number;
   DeepDungeon:         DeepDungeon;
   DeepDungeonTarget:   string;

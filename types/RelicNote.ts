@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface RelicNote1 {
+export interface RelicNote {
   EventItem:                        EventItem;
   EventItemTarget:                  string;
   EventItemTargetID:                number;
@@ -437,7 +437,7 @@ export interface Relic {
   NoteMain0: number[];
 }
 
-export interface Leve0 {
+export interface Leve {
   AllowanceCost:              number;
   BGM:                        Bgm;
   BGMTarget:                  string;
@@ -591,7 +591,7 @@ export interface LeveVfx {
   IconID:    number;
 }
 
-export interface Leve0LevelLevemete {
+export interface LeveLevelLevemete {
   EventId:           number;
   ID:                number;
   Map:               Map;
@@ -712,7 +712,7 @@ export enum TownTarget {
   Town = "Town",
 }
 
-export interface Leve1 {
+export interface Leve {
   AllowanceCost:              number;
   BGM:                        Bgm;
   BGMTarget:                  string;
@@ -784,7 +784,7 @@ export interface Leve1 {
   TownTargetID:               number;
 }
 
-export interface Leve1LevelLevemete {
+export interface LeveLevelLevemete {
   EventId:           number;
   ID:                number;
   Map:               Map;
@@ -802,7 +802,7 @@ export interface Leve1LevelLevemete {
   Z:                 string;
 }
 
-export interface Leve2 {
+export interface Leve {
   AllowanceCost:              number;
   BGM:                        Bgm;
   BGMTarget:                  string;

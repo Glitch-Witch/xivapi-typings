@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface IKDContentBonus1 {
+export interface IKDContentBonus {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

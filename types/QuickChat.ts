@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface QuickChat1 {
+export interface QuickChat {
   Addon:                      Addon;
   AddonTarget:                string;
   AddonTargetID:              number;

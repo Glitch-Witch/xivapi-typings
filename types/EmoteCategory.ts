@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface EmoteCategory1 {
+export interface EmoteCategory {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

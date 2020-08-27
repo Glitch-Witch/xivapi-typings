@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface SubmarineRank1 {
+export interface SubmarineRank {
   ExpToNext:        number;
   GameContentLinks: any[];
   ID:               number;

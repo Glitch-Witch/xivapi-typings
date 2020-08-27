@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface EventIconType1 {
+export interface EventIconType {
   GameContentLinks:   GameContentLinks;
   ID:                 number;
   IconRange:          number;

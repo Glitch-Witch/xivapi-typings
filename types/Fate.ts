@@ -25,7 +25,7 @@ export enum Icon {
 }
 
 
-export interface Fate1 {
+export interface Fate {
   AdventEvent:                 number;
   ArrayIndex:                  null;
   ArrayIndexTarget:            string;

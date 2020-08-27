@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GCShop1441792 {
+export interface GCShop {
   GameContentLinks:     any[];
   GamePatch:            GamePatch;
   GrandCompany:         null;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface DisposalShop3473408 {
+export interface DisposalShop {
   GameContentLinks: any[];
   ID:               number;
   Patch:            null;

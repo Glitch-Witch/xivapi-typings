@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface DeepDungeonMagicStone1 {
+export interface DeepDungeonMagicStone {
   Adjective:         number;
   Article:           number;
   GameContentLinks:  GameContentLinks;

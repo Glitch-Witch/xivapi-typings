@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CharaMakeClassEquip1 {
+export interface CharaMakeClassEquip {
   Class:            Class;
   ClassTarget:      string;
   ClassTargetID:    number;

@@ -30,7 +30,7 @@ export interface Name {
 }
 
 
-export interface SnipeTalk1 {
+export interface SnipeTalk {
   GameContentLinks: any[];
   ID:               number;
   Name:             null;

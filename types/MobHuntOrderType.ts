@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MobHuntOrderType1 {
+export interface MobHuntOrderType {
   EventItem:          EventItem;
   EventItemTarget:    string;
   EventItemTargetID:  number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CutsceneWorkIndex1 {
+export interface CutsceneWorkIndex {
   GameContentLinks: any[];
   ID:               number;
   Patch:            null;

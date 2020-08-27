@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GatheringExp1 {
+export interface GatheringExp {
   Exp:              number;
   GameContentLinks: any[];
   ID:               number;

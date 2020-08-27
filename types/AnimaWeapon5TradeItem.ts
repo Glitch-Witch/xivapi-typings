@@ -1,4 +1,4 @@
-export interface AnimaWeapon5TradeItemIndex {
+export interface AnimaWeaponTradeItemIndex {
   Pagination: Pagination;
   Results:    Result[];
 }
@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AnimaWeapon5TradeItem1 {
+export interface AnimaWeaponTradeItem {
   Category:            Category;
   CategoryTarget:      string;
   CategoryTargetID:    number;

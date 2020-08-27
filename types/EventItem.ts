@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface EventItem2000000 {
+export interface EventItem {
   Action:               null;
   ActionTarget:         string;
   ActionTargetID:       number;

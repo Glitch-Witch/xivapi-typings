@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface FCHierarchy1 {
+export interface FCHierarchy {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

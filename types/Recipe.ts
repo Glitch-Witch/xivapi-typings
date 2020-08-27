@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Recipe1 {
+export interface Recipe {
   AmountIngredient0:        number;
   AmountIngredient1:        number;
   AmountIngredient2:        number;

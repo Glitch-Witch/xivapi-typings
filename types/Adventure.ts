@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Adventure2162688 {
+export interface Adventure {
   Description:        string;
   Description_de:     string;
   Description_en:     string;

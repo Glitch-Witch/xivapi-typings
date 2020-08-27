@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HWDGathererInspectionReward1 {
+export interface HWDGathererInspectionReward {
   GameContentLinks: any[];
   ID:               number;
   Patch:            null;

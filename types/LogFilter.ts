@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface LogFilter1 {
+export interface LogFilter {
   Caster:           number;
   Category:         number;
   DisplayOrder:     number;

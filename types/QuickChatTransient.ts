@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface QuickChatTransient1 {
+export interface QuickChatTransient {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

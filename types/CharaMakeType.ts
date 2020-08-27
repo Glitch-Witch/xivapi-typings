@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CharaMakeType1_Class {
+export interface CharaMakeType_Class {
   ExPac?:             null;
   ExPacTarget?:       string;
   ExPacTargetID?:     number;

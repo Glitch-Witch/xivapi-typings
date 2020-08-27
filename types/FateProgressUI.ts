@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface FateProgressUI1 {
+export interface FateProgressUI {
   Achievement:         Achievement;
   AchievementTarget:   string;
   AchievementTargetID: number;

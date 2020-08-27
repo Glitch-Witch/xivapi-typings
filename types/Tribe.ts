@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Tribe1 {
+export interface Tribe {
   DEX:              string;
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;

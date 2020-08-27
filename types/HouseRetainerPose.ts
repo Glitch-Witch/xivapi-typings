@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HouseRetainerPose1 {
+export interface HouseRetainerPose {
   ActionTimeline:         ActionTimeline;
   ActionTimelineTarget:   string;
   ActionTimelineTargetID: number;

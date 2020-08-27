@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface QuestRedoGroup1 {
+export interface QuestRedoGroup {
   GameContentLinks: any[];
   ID:               number;
   Patch:            null;

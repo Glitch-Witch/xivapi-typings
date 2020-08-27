@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface SpecialShop1769472_Class {
+export interface SpecialShop_Class {
   InclusionShopSeries: InclusionShopSeries;
 }
 

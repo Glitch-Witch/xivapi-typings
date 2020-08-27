@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface PatchMark1 {
+export interface PatchMark {
   Category:         number;
   GameContentLinks: any[];
   ID:               number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AirshipExplorationPoint1 {
+export interface AirshipExplorationPoint {
   DurationMin:          number;
   ExpReward:            number;
   GameContentLinks:     any[];

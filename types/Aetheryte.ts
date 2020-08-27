@@ -26,7 +26,7 @@ export enum Name {
 }
 
 
-export interface Aetheryte1 {
+export interface Aetheryte {
   Adjective:             number;
   AethernetGroup:        number;
   AethernetName:         null;

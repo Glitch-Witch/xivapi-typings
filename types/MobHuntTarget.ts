@@ -45,7 +45,7 @@ export enum Icon {
 }
 
 
-export interface MobHuntTarget1 {
+export interface MobHuntTarget {
   FATE:                  null;
   FATETarget:            string;
   FATETargetID:          number;
@@ -109,7 +109,7 @@ export interface PlaceName {
   Name_ja:          string;
 }
 
-export interface MobHuntTarget1_TerritoryType {
+export interface MobHuntTarget_TerritoryType {
   DiscoveryArrayByte:      number;
   DiscoveryFlag:           number;
   DiscoveryIndex:          number;

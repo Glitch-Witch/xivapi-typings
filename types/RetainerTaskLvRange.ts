@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface RetainerTaskLVRange1 {
+export interface RetainerTaskLVRange {
   GameContentLinks: any[];
   ID:               number;
   Max:              number;

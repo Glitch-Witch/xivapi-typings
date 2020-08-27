@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface EurekaAetherItem1 {
+export interface EurekaAetherItem {
   Adjective:         number;
   Article:           number;
   GameContentLinks:  any[];

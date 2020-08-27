@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface EurekaAethernet1 {
+export interface EurekaAethernet {
   GameContentLinks: any[];
   ID:               number;
   Location:         Location;

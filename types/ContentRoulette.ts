@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ContentRoulette1 {
+export interface ContentRoulette {
   ContentMemberType:                null;
   ContentMemberTypeTarget:          string;
   ContentMemberTypeTargetID:        number;

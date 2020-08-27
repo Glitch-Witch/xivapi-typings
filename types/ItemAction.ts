@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ItemAction1 {
+export interface ItemAction {
   CondBattle:       number;
   CondLv:           number;
   CondPVP:          number;

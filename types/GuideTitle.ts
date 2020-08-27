@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GuideTitle1 {
+export interface GuideTitle {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

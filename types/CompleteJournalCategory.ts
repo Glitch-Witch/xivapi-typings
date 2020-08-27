@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CompleteJournalCategory1 {
+export interface CompleteJournalCategory {
   FirstQuest:         StQuest;
   FirstQuestTarget:   string;
   FirstQuestTargetID: number;

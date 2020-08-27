@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Materia1 {
+export interface Materia {
   BaseParam:         null;
   BaseParamTarget:   string;
   BaseParamTargetID: number;

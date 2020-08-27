@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GimmickAccessor1 {
+export interface GimmickAccessor {
   GameContentLinks: any[];
   ID:               number;
   Param0:           number;

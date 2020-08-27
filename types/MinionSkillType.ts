@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MinionSkillType1 {
+export interface MinionSkillType {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

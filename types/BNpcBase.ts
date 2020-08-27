@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BNpcBase1 {
+export interface BNpcBase {
   ArrayEventHandler:         null;
   ArrayEventHandlerTarget:   string;
   ArrayEventHandlerTargetID: number;

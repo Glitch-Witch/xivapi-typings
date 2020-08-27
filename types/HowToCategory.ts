@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HowToCategory1 {
+export interface HowToCategory {
   Category:         string;
   Category_de:      string;
   Category_en:      string;

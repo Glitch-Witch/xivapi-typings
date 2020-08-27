@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface TripleTriadCardRarity1 {
+export interface TripleTriadCardRarity {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Patch:            null;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AetheryteSystemDefine1 {
+export interface AetheryteSystemDefine {
   DefineValue:      number;
   GameContentLinks: any[];
   ID:               number;

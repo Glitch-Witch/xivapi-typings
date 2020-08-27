@@ -69,7 +69,7 @@ export interface Location {
 }
 
 
-export interface GcArmyCaptureTactics1 {
+export interface GcArmyCaptureTactics {
   DamageDealt:      number;
   DamageReceived:   number;
   GameContentLinks: any[];

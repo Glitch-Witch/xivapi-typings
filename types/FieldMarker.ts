@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface FieldMarker1 {
+export interface FieldMarker {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

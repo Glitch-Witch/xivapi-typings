@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ContentTalkParam1 {
+export interface ContentTalkParam {
   GameContentLinks:   GameContentLinks;
   ID:                 number;
   Param:              number;

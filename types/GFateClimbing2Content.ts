@@ -1,4 +1,4 @@
-export interface GFateClimbing2ContentIndex {
+export interface GFateClimbingContentIndex {
   Pagination: Pagination;
   Results:    Result[];
 }
@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GFateClimbing2Content1 {
+export interface GFateClimbingContent {
   GameContentLinks:              any[];
   ID:                            number;
   Patch:                         null;

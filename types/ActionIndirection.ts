@@ -385,7 +385,7 @@ export enum NameVFXTarget {
 }
 
 
-export interface ActionIndirection1 {
+export interface ActionIndirection {
   GameContentLinks: any[];
   ID:               number;
   Name:             Name;

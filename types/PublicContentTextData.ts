@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface PublicContentTextData1000 {
+export interface PublicContentTextData {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

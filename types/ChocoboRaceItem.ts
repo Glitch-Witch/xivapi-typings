@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ChocoboRaceItem1 {
+export interface ChocoboRaceItem {
   Description:      string;
   Description_de:   string;
   Description_en:   string;

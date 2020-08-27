@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GatheringRarePopTimeTable1 {
+export interface GatheringRarePopTimeTable {
   DurationM0:       number;
   DurationM1:       number;
   DurationM2:       number;

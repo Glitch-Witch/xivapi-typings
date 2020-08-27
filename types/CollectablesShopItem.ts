@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CollectablesShopItem10 {
+export interface CollectablesShopItem {
   CollectablesShopItemGroup:           CollectablesShopItemGroup;
   CollectablesShopItemGroupTarget:     string;
   CollectablesShopItemGroupTargetID:   number;
@@ -183,7 +183,7 @@ export interface CurrencyItem {
   StartsWithVowel:            number;
 }
 
-export interface CollectablesShopItem10_Item {
+export interface CollectablesShopItem_Item {
   AdditionalData:             number;
   Adjective:                  number;
   AetherialReduce:            number;

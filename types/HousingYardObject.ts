@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HousingYardObject131072 {
+export interface HousingYardObject {
   CustomTalk:          null;
   CustomTalkTarget:    string;
   CustomTalkTargetID:  number;

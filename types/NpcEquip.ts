@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface NpcEquip1 {
+export interface NpcEquip {
   DyeBody:              null;
   DyeBodyTarget:        string;
   DyeBodyTargetID:      number;

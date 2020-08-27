@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface FCRights1 {
+export interface FCRights {
   Description:      string;
   Description_de:   string;
   Description_en:   string;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface TripleTriad2293760 {
+export interface TripleTriad {
   DefaultTalkChallenge:             null;
   DefaultTalkChallengeTarget:       string;
   DefaultTalkChallengeTargetID:     number;

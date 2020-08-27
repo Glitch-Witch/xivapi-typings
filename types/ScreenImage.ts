@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ScreenImage1 {
+export interface ScreenImage {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Image:            string;

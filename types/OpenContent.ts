@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface OpenContent1 {
+export interface OpenContent {
   CandidateName0:          null;
   CandidateName0Target:    string;
   CandidateName0TargetID:  number;

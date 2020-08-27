@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface InstanceContentGuide1900544 {
+export interface InstanceContentGuide {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

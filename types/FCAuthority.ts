@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface FCAuthority1 {
+export interface FCAuthority {
   FCAuthorityCategory:         null;
   FCAuthorityCategoryTarget:   string;
   FCAuthorityCategoryTargetID: number;

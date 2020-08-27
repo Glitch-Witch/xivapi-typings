@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface EventSystemDefine1 {
+export interface EventSystemDefine {
   DefineValue:      number;
   GameContentLinks: any[];
   GamePatch:        GamePatch;

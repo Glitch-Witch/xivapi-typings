@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GatheringLeveRule1 {
+export interface GatheringLeveRule {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

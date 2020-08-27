@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Mount1 {
+export interface Mount {
   Adjective:                       number;
   Article:                         number;
   BaseMotionSpeed_Run:             number;

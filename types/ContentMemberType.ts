@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ContentMemberType1 {
+export interface ContentMemberType {
   GameContentLinks: GameContentLinks;
   HealersPerParty:  number;
   ID:               number;

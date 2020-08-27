@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface PVPActionSort10 {
+export interface PVPActionSort {
   Action:           Action;
   ActionTarget:     string;
   ActionTargetID:   number;

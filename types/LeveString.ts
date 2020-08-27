@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface LeveString1 {
+export interface LeveString {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

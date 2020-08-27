@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ActivityFeedButtons1 {
+export interface ActivityFeedButtons {
   BannerURL:        string;
   BannerURL_en:     string;
   Description:      string;

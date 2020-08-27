@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ActionParam1 {
+export interface ActionParam {
   GameContentLinks: any[];
   ID:               number;
   Name:             number;

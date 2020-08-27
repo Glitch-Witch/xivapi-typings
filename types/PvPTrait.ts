@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface PVPTrait1 {
+export interface PVPTrait {
   GameContentLinks: any[];
   ID:               number;
   Patch:            null;

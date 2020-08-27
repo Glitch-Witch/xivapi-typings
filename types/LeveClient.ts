@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface LeveClient1 {
+export interface LeveClient {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

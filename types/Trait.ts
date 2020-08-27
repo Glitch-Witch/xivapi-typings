@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Trait1 {
+export interface Trait {
   ClassJob:                 null;
   ClassJobCategory:         null;
   ClassJobCategoryTarget:   string;

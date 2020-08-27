@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ZoneSharedGroup10 {
+export interface ZoneSharedGroup {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               string;
@@ -68,7 +68,7 @@ export interface GamePatch {
   Version:       string;
 }
 
-export interface Quest1Class {
+export interface QuestClass {
   Category?:              number;
   ClassJob?:              number;
   ID:                     number;

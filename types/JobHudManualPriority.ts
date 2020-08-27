@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface JobHudManualPriority1 {
+export interface JobHudManualPriority {
   GameContentLinks:      any[];
   ID:                    number;
   JobHudManual0:         JobHudManual0;
@@ -37,7 +37,7 @@ export interface JobHudManualPriority1 {
   Url:                   string;
 }
 
-export interface JobHudManual0 {
+export interface JobHudManual {
   Action:         Action;
   ActionTarget:   string;
   ActionTargetID: number;

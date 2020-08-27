@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ActionTimelineMove1 {
+export interface ActionTimelineMove {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Patch:            null;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface SpearfishingNotebook1 {
+export interface SpearfishingNotebook {
   GameContentLinks:           any[];
   GatheringLevel:             number;
   GatheringPointBase:         GatheringPointBase;

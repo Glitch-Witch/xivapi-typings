@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface FCReputation1 {
+export interface FCReputation {
   Color:            Color;
   ColorTarget:      string;
   ColorTargetID:    number;

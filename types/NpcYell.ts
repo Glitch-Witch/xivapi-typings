@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface NpcYell1 {
+export interface NpcYell {
   BalloonTime:      number;
   BattleTalkTime:   number;
   GameContentLinks: GameContentLinks;

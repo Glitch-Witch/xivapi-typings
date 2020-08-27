@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Weather1 {
+export interface Weather {
   Description:      string;
   Description_de:   string;
   Description_en:   string;

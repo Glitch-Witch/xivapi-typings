@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface NotebookDivisionCategory1 {
+export interface NotebookDivisionCategory {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

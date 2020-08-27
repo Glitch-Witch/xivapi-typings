@@ -355,7 +355,7 @@ export enum UnlockQuestTarget {
 }
 
 
-export interface ContentRandomSelect10 {
+export interface ContentRandomSelect {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               string;

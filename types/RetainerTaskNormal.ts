@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface RetainerTaskNormal1 {
+export interface RetainerTaskNormal {
   FishingLog:           number;
   GameContentLinks:     any[];
   GatheringLog:         null;

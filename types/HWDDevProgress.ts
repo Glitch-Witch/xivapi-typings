@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HWDDevProgress1 {
+export interface HWDDevProgress {
   CanGoNext:        number;
   GameContentLinks: any[];
   ID:               number;

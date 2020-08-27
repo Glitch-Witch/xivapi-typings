@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ScenarioType1 {
+export interface ScenarioType {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Patch:            null;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CircleActivity1 {
+export interface CircleActivity {
   GameContentLinks: any[];
   ID:               number;
   Icon:             string;

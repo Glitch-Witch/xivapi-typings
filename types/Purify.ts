@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Purify1 {
+export interface Purify {
   Class:            Class;
   ClassTarget:      string;
   ClassTargetID:    number;

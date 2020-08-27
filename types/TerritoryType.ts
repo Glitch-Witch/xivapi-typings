@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface TerritoryType1 {
+export interface TerritoryType {
   AchievementIndex:          number;
   "AddedIn5-3":              number;
   Aetheryte:                 null;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ContentFinderConditionTransient1 {
+export interface ContentFinderConditionTransient {
   Description:      string;
   Description_de:   string;
   Description_en:   string;

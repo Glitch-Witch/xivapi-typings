@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HugeCraftworksRank1 {
+export interface HugeCraftworksRank {
   CrafterLevel:     number;
   ExpRewardPerItem: number;
   GameContentLinks: any[];

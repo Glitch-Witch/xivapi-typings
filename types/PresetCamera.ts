@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface PresetCamera1 {
+export interface PresetCamera {
   EID:              number;
   Elezen:           number;
   Elezen_F:         number;

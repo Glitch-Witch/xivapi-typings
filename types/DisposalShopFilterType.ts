@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface DisposalShopFilterType1 {
+export interface DisposalShopFilterType {
   Category:         string;
   Category_de:      string;
   Category_en:      string;

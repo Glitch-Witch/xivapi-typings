@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BenchmarkOverrideEquipment1 {
+export interface BenchmarkOverrideEquipment {
   DyeBody:              null;
   DyeBodyTarget:        string;
   DyeBodyTargetID:      number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface DefaultTalk589824 {
+export interface DefaultTalk {
   ActionTimelinePose0:         ActionTimelinePose;
   ActionTimelinePose0Target:   string;
   ActionTimelinePose0TargetID: number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BeastTribe1 {
+export interface BeastTribe {
   Adjective:              number;
   Article:                number;
   BeastRankBonus:         null;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface TreasureModel1 {
+export interface TreasureModel {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

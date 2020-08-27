@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface WeddingBGM1 {
+export interface WeddingBGM {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

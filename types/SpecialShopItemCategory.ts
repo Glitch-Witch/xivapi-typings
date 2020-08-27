@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface SpecialShopItemCategory1 {
+export interface SpecialShopItemCategory {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Name:             string;

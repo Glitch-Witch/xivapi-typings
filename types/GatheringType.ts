@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GatheringType0 {
+export interface GatheringType {
   GameContentLinks: GameContentLinks;
   ID:               number;
   IconMain:         string;

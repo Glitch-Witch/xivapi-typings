@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ContentCloseCycle1 {
+export interface ContentCloseCycle {
   GameContentLinks: any[];
   ID:               number;
   Patch:            null;

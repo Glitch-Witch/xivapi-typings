@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GuardianDeity1 {
+export interface GuardianDeity {
   Description:      string;
   Description_de:   string;
   Description_en:   string;

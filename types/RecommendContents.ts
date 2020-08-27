@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface RecommendContents1 {
+export interface RecommendContents {
   ClassJob:         ClassJob;
   ClassJobTarget:   string;
   ClassJobTargetID: number;

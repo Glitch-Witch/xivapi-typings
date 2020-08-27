@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AetherCurrentCompFlgSet1 {
+export interface AetherCurrentCompFlgSet {
   AetherCurrent0:          AetherCurrent0;
   AetherCurrent0Target:    string;
   AetherCurrent0TargetID:  number;
@@ -76,7 +76,7 @@ export interface AetherCurrentCompFlgSet1 {
   Url:                     string;
 }
 
-export interface AetherCurrent0 {
+export interface AetherCurrent {
   ID:            number;
   Quest:         { [key: string]: number | { [key: string]: number | string } | null | string } | null;
   QuestTarget:   QuestTarget;

@@ -1,4 +1,4 @@
-export interface SkyIsland2MissionTypeIndex {
+export interface SkyIslandMissionTypeIndex {
   Pagination: Pagination;
   Results:    Result[];
 }
@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface SkyIsland2MissionType1 {
+export interface SkyIslandMissionType {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Patch:            null;
@@ -33,6 +33,6 @@ export interface GameContentLinks {
   SkyIsland2MissionDetail: SkyIsland2MissionDetail;
 }
 
-export interface SkyIsland2MissionDetail {
+export interface SkyIslandMissionDetail {
   Type: number[];
 }

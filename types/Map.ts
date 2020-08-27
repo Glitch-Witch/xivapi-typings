@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Map1 {
+export interface Map {
   DiscoveryArrayByte:      number;
   DiscoveryFlag:           number;
   DiscoveryIndex:          string;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GCScripShopItem10 {
+export interface GCScripShopItem {
   CostGCSeals:                      number;
   GameContentLinks:                 any[];
   GamePatch:                        GamePatch;

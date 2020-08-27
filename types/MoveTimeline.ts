@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MoveTimeline1 {
+export interface MoveTimeline {
   Extra:                 null;
   ExtraTarget:           string;
   ExtraTargetID:         number;

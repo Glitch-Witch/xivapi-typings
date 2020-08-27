@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AnimaWeaponIcon1 {
+export interface AnimaWeaponIcon {
   GameContentLinks:  any[];
   Hyperconductive:   string;
   HyperconductiveID: number;

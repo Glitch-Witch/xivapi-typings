@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface WeaponTimeline1 {
+export interface WeaponTimeline {
   File:               string;
   File_en:            string;
   GameContentLinks:   GameContentLinks;

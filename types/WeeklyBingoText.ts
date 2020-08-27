@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface WeeklyBingoText1 {
+export interface WeeklyBingoText {
   Description:      string;
   Description_de:   string;
   Description_en:   string;

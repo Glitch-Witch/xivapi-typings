@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface EObjName2000000 {
+export interface EObjName {
   Adjective:         number;
   Article:           number;
   GameContentLinks:  any[];

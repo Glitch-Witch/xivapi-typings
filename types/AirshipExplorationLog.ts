@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AirshipExplorationLog1 {
+export interface AirshipExplorationLog {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

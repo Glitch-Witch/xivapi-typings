@@ -1,4 +1,4 @@
-export interface DeepDungeonMap5XIndex {
+export interface DeepDungeonMapXIndex {
   Pagination: Pagination;
   Results:    Result[];
 }
@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface DeepDungeonMap5X10 {
+export interface DeepDungeonMapX {
   DeepDungeonRoom0:         null;
   DeepDungeonRoom0Target:   string;
   DeepDungeonRoom0TargetID: number;

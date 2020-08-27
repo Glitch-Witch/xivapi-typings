@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ChocoboTaxiStand1179648 {
+export interface ChocoboTaxiStand {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

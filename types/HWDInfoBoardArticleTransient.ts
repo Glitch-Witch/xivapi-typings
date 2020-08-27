@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HWDInfoBoardArticleTransient1 {
+export interface HWDInfoBoardArticleTransient {
   GameContentLinks: any[];
   ID:               number;
   Image:            string;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface WeeklyLotBonus1 {
+export interface WeeklyLotBonus {
   GameContentLinks:                  any[];
   ID:                                number;
   Patch:                             null;

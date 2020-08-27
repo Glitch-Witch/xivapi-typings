@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface IKDSpot1 {
+export interface IKDSpot {
   GameContentLinks:  GameContentLinks;
   ID:                number;
   Patch:             null;

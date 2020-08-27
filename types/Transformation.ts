@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Transformation1 {
+export interface Transformation {
   Action0:               null;
   Action0Target:         string;
   Action0TargetID:       number;

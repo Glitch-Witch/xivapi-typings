@@ -1,4 +1,4 @@
-export interface AnimaWeapon5SpiritTalkIndex {
+export interface AnimaWeaponSpiritTalkIndex {
   Pagination: Pagination;
   Results:    Result[];
 }
@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AnimaWeapon5SpiritTalk10 {
+export interface AnimaWeaponSpiritTalk {
   Dialogue:         Dialogue;
   DialogueTarget:   string;
   DialogueTargetID: number;

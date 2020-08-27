@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface SwitchTalk2031616 {
+export interface SwitchTalk {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

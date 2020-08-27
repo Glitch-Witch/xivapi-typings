@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface RetainerTask1 {
+export interface RetainerTask {
   ClassJobCategory:              ClassJobCategory;
   ClassJobCategoryTarget:        string;
   ClassJobCategoryTargetID:      number;

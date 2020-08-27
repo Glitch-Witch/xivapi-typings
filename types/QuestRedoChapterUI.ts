@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface QuestRedoChapterUI1 {
+export interface QuestRedoChapterUI {
   Category:           null;
   CategoryTarget:     string;
   CategoryTargetID:   number;

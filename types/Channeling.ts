@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Channeling1 {
+export interface Channeling {
   "AddedIn5-3":     number;
   File:             string;
   File_en:          string;

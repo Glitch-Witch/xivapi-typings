@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface EmjAddon1 {
+export interface EmjAddon {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

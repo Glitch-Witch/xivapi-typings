@@ -1,4 +1,4 @@
-export interface GFateClimbing2TotemTypeIndex {
+export interface GFateClimbingTotemTypeIndex {
   Pagination: Pagination;
   Results:    Result[];
 }
@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GFateClimbing2TotemType1 {
+export interface GFateClimbingTotemType {
   GameContentLinks:              any[];
   ID:                            number;
   Patch:                         null;

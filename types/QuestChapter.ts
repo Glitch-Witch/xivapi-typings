@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface QuestChapter1 {
+export interface QuestChapter {
   GameContentLinks: any[];
   ID:               number;
   Patch:            null;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface FCRank1 {
+export interface FCRank {
   CurrentPoint:      number;
   FCActionActiveNum: number;
   FCActionStockNum:  number;

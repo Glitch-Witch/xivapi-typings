@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AOZContentBriefingBNpc1 {
+export interface AOZContentBriefingBNpc {
   BNpcName:                BNpcName;
   BNpcNameTarget:          string;
   BNpcNameTargetID:        number;

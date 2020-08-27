@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface WarpLogic1 {
+export interface WarpLogic {
   Argument0:        number;
   Argument1:        number;
   Argument2:        number;

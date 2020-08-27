@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface SpearfishingRecordPage1 {
+export interface SpearfishingRecordPage {
   GameContentLinks:  any[];
   ID:                number;
   Image:             string;

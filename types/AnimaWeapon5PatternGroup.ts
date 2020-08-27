@@ -1,4 +1,4 @@
-export interface AnimaWeapon5PatternGroupIndex {
+export interface AnimaWeaponPatternGroupIndex {
   Pagination: Pagination;
   Results:    Result[];
 }
@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AnimaWeapon5PatternGroup1 {
+export interface AnimaWeaponPatternGroup {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;
@@ -38,7 +38,7 @@ export interface GameContentLinks {
   AnimaWeapon5TradeItem: AnimaWeapon5TradeItem;
 }
 
-export interface AnimaWeapon5TradeItem {
+export interface AnimaWeaponTradeItem {
   Category: number[];
 }
 

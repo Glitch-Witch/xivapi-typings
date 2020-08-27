@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MasterpieceSupplyMultiplier1 {
+export interface MasterpieceSupplyMultiplier {
   CurrencyMultiplier0: number;
   CurrencyMultiplier1: number;
   GameContentLinks:    GameContentLinks;

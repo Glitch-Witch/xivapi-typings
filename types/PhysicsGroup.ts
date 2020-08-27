@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface PhysicsGroup1 {
+export interface PhysicsGroup {
   ConfigSwitch0:            number;
   ConfigSwitch1:            number;
   ConfigSwitch2:            number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CompanyLeve196608 {
+export interface CompanyLeve {
   BNpcName0:              null;
   BNpcName0Target:        string;
   BNpcName0TargetID:      number;

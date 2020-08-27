@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface PVPSelectTrait1 {
+export interface PVPSelectTrait {
   Effect:           string;
   Effect_de:        string;
   Effect_en:        string;

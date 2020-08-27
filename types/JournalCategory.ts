@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface JournalCategory1 {
+export interface JournalCategory {
   DataType:               number;
   GameContentLinks:       GameContentLinks;
   ID:                     number;

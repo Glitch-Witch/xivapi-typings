@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface EurekaLogosMixerProbability1 {
+export interface EurekaLogosMixerProbability {
   GameContentLinks: any[];
   ID:               number;
   Patch:            null;

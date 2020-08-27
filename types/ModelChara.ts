@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ModelChara1 {
+export interface ModelChara {
   Base:             number;
   GameContentLinks: GameContentLinks;
   ID:               number;

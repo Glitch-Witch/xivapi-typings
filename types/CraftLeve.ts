@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CraftLeve917504 {
+export interface CraftLeve {
   CraftLeveTalk:         null;
   CraftLeveTalkTarget:   string;
   CraftLeveTalkTargetID: number;

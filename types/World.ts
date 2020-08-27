@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface World0 {
+export interface World {
   DataCenter:         null;
   DataCenterTarget:   string;
   DataCenterTargetID: number;

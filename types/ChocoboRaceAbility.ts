@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ChocoboRaceAbility1 {
+export interface ChocoboRaceAbility {
   ChocoboRaceAbilityType:         ChocoboRaceAbilityType;
   ChocoboRaceAbilityTypeTarget:   string;
   ChocoboRaceAbilityTypeTargetID: number;

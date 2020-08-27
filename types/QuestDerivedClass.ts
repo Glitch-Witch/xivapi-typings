@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface QuestDerivedClass1 {
+export interface QuestDerivedClass {
   GameContentLinks: any[];
   ID:               number;
   Patch:            null;

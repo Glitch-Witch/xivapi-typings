@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BuddyItem1 {
+export interface BuddyItem {
   GameContentLinks: any[];
   ID:               number;
   Item:             Item;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MobHuntRewardCap1 {
+export interface MobHuntRewardCap {
   ExpCap:           number;
   GameContentLinks: any[];
   ID:               number;

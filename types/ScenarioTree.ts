@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ScenarioTree65564 {
+export interface ScenarioTree {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

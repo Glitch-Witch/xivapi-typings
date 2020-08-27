@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface RecipeNotebookList0 {
+export interface RecipeNotebookList {
   GameContentLinks:  any[];
   GamePatch:         GamePatch;
   ID:                number;
@@ -525,7 +525,7 @@ export interface GamePatch {
   Version:     string;
 }
 
-export interface Recipe0 {
+export interface Recipe {
   AmountIngredient0:        number;
   AmountIngredient1:        number;
   AmountIngredient2:        number;
@@ -635,7 +635,7 @@ export enum NameJa {
   木工 = "木工",
 }
 
-export interface ItemIngredient0Class {
+export interface ItemIngredientClass {
   AdditionalData:             number;
   Adjective:                  number;
   AetherialReduce:            number;

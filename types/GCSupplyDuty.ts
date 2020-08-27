@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GCSupplyDuty1 {
+export interface GCSupplyDuty {
   GameContentLinks: any[];
   ID:               number;
   Item00:           Item00Class;
@@ -160,7 +160,7 @@ export interface GCSupplyDuty1 {
   Url:              string;
 }
 
-export interface Item00Class {
+export interface ItemClass {
   AdditionalData:             number;
   Adjective:                  number;
   AetherialReduce:            number;
@@ -710,7 +710,7 @@ export interface ItemUICategoryClass {
   OrderMinor?: number;
 }
 
-export interface Item02 {
+export interface Item {
   AdditionalData:             number;
   Adjective:                  number;
   AetherialReduce:            number;
@@ -1050,7 +1050,7 @@ export interface StartingTown {
   Name_ja: string;
 }
 
-export interface Item03Class {
+export interface ItemClass {
   AdditionalData:             number;
   Adjective:                  number;
   AetherialReduce:            number;
@@ -1206,7 +1206,7 @@ export interface Item03Class {
   StartsWithVowel:            number;
 }
 
-export interface Item05 {
+export interface Item {
   AdditionalData:             number;
   Adjective:                  number;
   AetherialReduce:            number;

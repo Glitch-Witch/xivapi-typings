@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface StainTransient1 {
+export interface StainTransient {
   GameContentLinks: any[];
   ID:               number;
   Item1:            Item1;
@@ -34,7 +34,7 @@ export interface StainTransient1 {
   Url:              string;
 }
 
-export interface Item1 {
+export interface Item {
   AdditionalData:             number;
   Adjective:                  number;
   AetherialReduce:            number;

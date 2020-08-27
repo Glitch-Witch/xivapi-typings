@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface FateEvent1 {
+export interface FateEvent {
   Facial0:          number;
   Facial1:          number;
   Facial2:          number;

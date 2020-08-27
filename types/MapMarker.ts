@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MapMarker10 {
+export interface MapMarker {
   DataKey:                  number;
   DataType:                 number;
   GameContentLinks:         any[];

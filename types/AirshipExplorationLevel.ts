@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AirshipExplorationLevel1 {
+export interface AirshipExplorationLevel {
   ExpToNext:        number;
   GameContentLinks: any[];
   ID:               number;

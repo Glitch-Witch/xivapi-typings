@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ContentGauge1 {
+export interface ContentGauge {
   Color:            null;
   ColorTarget:      string;
   ColorTargetID:    number;

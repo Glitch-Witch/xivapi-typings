@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface JournalSection1 {
+export interface JournalSection {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Name:             string;

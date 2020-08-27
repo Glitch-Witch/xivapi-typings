@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ENpcDressUp1 {
+export interface ENpcDressUp {
   ENpcDressUpDress:         null;
   ENpcDressUpDressTarget:   string;
   ENpcDressUpDressTargetID: number;

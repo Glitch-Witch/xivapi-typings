@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CompanyCraftPart1 {
+export interface CompanyCraftPart {
   CompanyCraftProcess0:         CompanyCraftProcess;
   CompanyCraftProcess0Target:   string;
   CompanyCraftProcess0TargetID: number;

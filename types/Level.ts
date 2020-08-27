@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Level1034660 {
+export interface Level {
   EventId:           number;
   GameContentLinks:  any[];
   GamePatch:         GamePatch;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface DawnContent1 {
+export interface DawnContent {
   Content:          Content;
   ContentTarget:    string;
   ContentTargetID:  number;

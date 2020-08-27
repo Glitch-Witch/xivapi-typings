@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Ballista1 {
+export interface Ballista {
   Action0:          Action0;
   Action0Target:    string;
   Action0TargetID:  number;
@@ -47,7 +47,7 @@ export interface Ballista1 {
   Url:              string;
 }
 
-export interface Action0 {
+export interface Action {
   ActionCategory:            ActionCategory;
   ActionCategoryTarget:      string;
   ActionCategoryTargetID:    number;
@@ -218,7 +218,7 @@ export interface ClassJobCategory {
   WVR:     number;
 }
 
-export interface Action3 {
+export interface Action {
   ActionCategory:            ActionCategory;
   ActionCategoryTarget:      string;
   ActionCategoryTargetID:    number;

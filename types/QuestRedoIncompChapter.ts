@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface QuestRedoIncompChapter10 {
+export interface QuestRedoIncompChapter {
   Chapter:          Chapter;
   ChapterTarget:    string;
   ChapterTargetID:  number;

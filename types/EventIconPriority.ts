@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface EventIconPriority1 {
+export interface EventIconPriority {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

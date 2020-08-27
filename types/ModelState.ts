@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ModelState1 {
+export interface ModelState {
   GameContentLinks: any[];
   ID:               number;
   Patch:            null;

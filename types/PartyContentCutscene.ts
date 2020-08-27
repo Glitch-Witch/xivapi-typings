@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface PartyContentCutscene1 {
+export interface PartyContentCutscene {
   Cutscene:         Cutscene;
   CutsceneTarget:   string;
   CutsceneTargetID: number;

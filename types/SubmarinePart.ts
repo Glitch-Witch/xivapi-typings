@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface SubmarinePart1 {
+export interface SubmarinePart {
   Components:       number;
   Favor:            number;
   GameContentLinks: any[];

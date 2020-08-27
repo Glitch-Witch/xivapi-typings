@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MonsterNote10001 {
+export interface MonsterNote {
   Count0:                     number;
   Count1:                     number;
   Count2:                     number;
@@ -67,7 +67,7 @@ export interface GamePatch {
   Version:     string;
 }
 
-export interface MonsterNoteTarget0 {
+export interface MonsterNoteTarget {
   BNpcName:                   BNpcName;
   BNpcNameTarget:             string;
   BNpcNameTargetID:           number;

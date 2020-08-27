@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ActionComboRoute1 {
+export interface ActionComboRoute {
   Action0:          Action0;
   Action0Target:    string;
   Action0TargetID:  number;
@@ -46,7 +46,7 @@ export interface ActionComboRoute1 {
   Url:              string;
 }
 
-export interface Action0 {
+export interface Action {
   ActionCategory:            null;
   ActionCategoryTarget:      string;
   ActionCategoryTargetID:    number;

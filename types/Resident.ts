@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Resident10 {
+export interface Resident {
   "AddedIn5-3":               number;
   GameContentLinks:           any[];
   GamePatch:                  GamePatch;

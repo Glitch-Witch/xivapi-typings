@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AetherialWheel1 {
+export interface AetherialWheel {
   GameContentLinks:     any[];
   Grade:                number;
   HoursRequired:        number;

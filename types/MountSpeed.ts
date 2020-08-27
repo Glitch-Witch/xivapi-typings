@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MountSpeed1 {
+export interface MountSpeed {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Patch:            null;

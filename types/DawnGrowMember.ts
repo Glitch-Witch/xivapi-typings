@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface DawnGrowMember1 {
+export interface DawnGrowMember {
   BigImageNew:      string;
   BigImageNewID:    number;
   BigImageOld:      string;

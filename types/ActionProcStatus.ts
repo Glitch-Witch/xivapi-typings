@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ActionProcStatus1 {
+export interface ActionProcStatus {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Patch:            null;

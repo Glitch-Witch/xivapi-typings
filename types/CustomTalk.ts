@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CustomTalk720896 {
+export interface CustomTalk {
   GameContentLinks:       any[];
   GamePatch:              GamePatch;
   ID:                     number;

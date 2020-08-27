@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AnimationLOD1 {
+export interface AnimationLOD {
   AnimationEnable0: number;
   AnimationEnable1: number;
   AnimationEnable2: number;

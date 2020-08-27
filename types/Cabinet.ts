@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Cabinet0 {
+export interface Cabinet {
   Category:         Cabinet0_Category;
   CategoryTarget:   string;
   CategoryTargetID: number;
@@ -35,7 +35,7 @@ export interface Cabinet0 {
   Url:              string;
 }
 
-export interface Cabinet0_Category {
+export interface Cabinet_Category {
   Category:         CategoryCategory;
   CategoryTarget:   string;
   CategoryTargetID: number;

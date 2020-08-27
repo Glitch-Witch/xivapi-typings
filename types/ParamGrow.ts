@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ParamGrow1 {
+export interface ParamGrow {
   AdditionalActions:   number;
   ApplyAction:         number;
   BaseSpeed:           number;

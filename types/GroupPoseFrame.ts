@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GroupPoseFrame1 {
+export interface GroupPoseFrame {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   GridText:         string;

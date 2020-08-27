@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface DailySupplyItem1 {
+export interface DailySupplyItem {
   GameContentLinks: any[];
   ID:               number;
   Item0:            Item0Class;
@@ -68,7 +68,7 @@ export interface DailySupplyItem1 {
   Url:              string;
 }
 
-export interface Item0Class {
+export interface ItemClass {
   AdditionalData:             number;
   Adjective:                  number;
   AetherialReduce:            number;
@@ -827,7 +827,7 @@ export interface ItemSpecialBonus {
   OrderMinor?: number;
 }
 
-export interface Item1Class {
+export interface ItemClass {
   AdditionalData:             number;
   Adjective:                  number;
   AetherialReduce:            number;
@@ -983,7 +983,7 @@ export interface Item1Class {
   StartsWithVowel:            number;
 }
 
-export interface Item3Class {
+export interface ItemClass {
   AdditionalData:             number;
   Adjective:                  number;
   AetherialReduce:            number;

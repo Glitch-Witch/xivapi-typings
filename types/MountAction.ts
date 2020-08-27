@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MountAction1 {
+export interface MountAction {
   Action0:          Action0;
   Action0Target:    string;
   Action0TargetID:  number;
@@ -46,7 +46,7 @@ export interface MountAction1 {
   Url:              string;
 }
 
-export interface Action0 {
+export interface Action {
   ActionCategory:            ActionCategory;
   ActionCategoryTarget:      string;
   ActionCategoryTargetID:    number;
@@ -210,7 +210,7 @@ export interface ClassJobCategory {
   WVR:     number;
 }
 
-export interface Action0VFX {
+export interface ActionVFX {
   ID:          number;
   VFX:         VfxVfx;
   VFXTarget:   string;

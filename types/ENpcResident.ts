@@ -30,7 +30,7 @@ export enum Name {
 }
 
 
-export interface ENpcResident1000000 {
+export interface ENpcResident {
   Adjective:         number;
   Article:           number;
   Base:              Base;

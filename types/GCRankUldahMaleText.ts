@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GCRankUldahMaleText1 {
+export interface GCRankUldahMaleText {
   Adjective:         number;
   Article:           number;
   GameContentLinks:  any[];

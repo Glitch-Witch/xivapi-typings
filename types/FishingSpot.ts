@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface FishingSpot1 {
+export interface FishingSpot {
   BigFishOnEnd:          string;
   BigFishOnEnd_de:       string;
   BigFishOnEnd_en:       string;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MotionTimelineBlendTable1 {
+export interface MotionTimelineBlendTable {
   BlendFram_TypeA:  number;
   BlendFram_TypeB:  number;
   BlendFram_TypeC:  number;

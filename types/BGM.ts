@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Bgm1 {
+export interface Bgm {
   DisableRestart:          number;
   DisableRestartResetTime: number;
   DisableRestartTimeOut:   number;

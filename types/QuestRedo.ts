@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface QuestRedo1 {
+export interface QuestRedo {
   Chapter:            Chapter;
   ChapterTarget:      string;
   ChapterTargetID:    number;
@@ -192,7 +192,7 @@ export interface FinalQuestClass {
   WeatherRate?:           number;
 }
 
-export interface Quest0Class {
+export interface QuestClass {
   "1HWpn%"?:                   number;
   "2HWpn%"?:                   number;
   "Bracelet%"?:                number;
@@ -576,7 +576,7 @@ export enum SingularJa {
   ミラージュプリズム = "ミラージュプリズム",
 }
 
-export interface Quest1Class {
+export interface QuestClass {
   "1HWpn%"?:                   number;
   "2HWpn%"?:                   number;
   "Bracelet%"?:                number;
@@ -862,7 +862,7 @@ export interface Quest1Class {
   WeatherRate?:                number;
 }
 
-export interface Quest10Class {
+export interface QuestClass {
   "1HWpn%"?:                   number;
   "2HWpn%"?:                   number;
   "Bracelet%"?:                number;
@@ -1148,7 +1148,7 @@ export interface Quest10Class {
   WeatherRate?:                number;
 }
 
-export interface Quest15Class {
+export interface QuestClass {
   DataType?:              number;
   ID:                     number;
   JournalSection?:        number;
@@ -1206,7 +1206,7 @@ export interface Quest15Class {
   WeatherRate?:           number;
 }
 
-export interface Quest16Class {
+export interface QuestClass {
   DataType?:              number;
   ID:                     number;
   JournalSection?:        number;
@@ -1270,7 +1270,7 @@ export enum Quest16PlaceNameRegionIcon {
   I122000122009PNG = "/i/122000/122009.png",
 }
 
-export interface Quest17Class {
+export interface QuestClass {
   DataType?:              number;
   ID:                     number;
   JournalSection?:        number;
@@ -1328,7 +1328,7 @@ export interface Quest17Class {
   WeatherRate?:           number;
 }
 
-export interface Quest19Class {
+export interface QuestClass {
   DataType?:              number;
   ID:                     number;
   JournalSection?:        number;
@@ -1386,7 +1386,7 @@ export interface Quest19Class {
   WeatherRate?:           number;
 }
 
-export interface Quest2Class {
+export interface QuestClass {
   CondBattle?:            number;
   CondLv?:                number;
   CondPVP?:               number;
@@ -1474,7 +1474,7 @@ export interface Quest2Class {
   WeatherRate?:           number;
 }
 
-export interface Quest4Class {
+export interface QuestClass {
   "1HWpn%"?:                   number;
   "2HWpn%"?:                   number;
   "Bracelet%"?:                number;
@@ -1760,7 +1760,7 @@ export interface Quest4Class {
   WeatherRate?:                number;
 }
 
-export interface Quest7Class {
+export interface QuestClass {
   ID:                        number;
   Name?:                     number | string;
   Name_de?:                  string;

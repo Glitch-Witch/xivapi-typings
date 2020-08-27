@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HousingPreset262144 {
+export interface HousingPreset {
   Adjective:                  number;
   Article:                    number;
   BasementFlooring:           null;

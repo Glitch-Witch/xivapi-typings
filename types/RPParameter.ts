@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface RPParameter1 {
+export interface RPParameter {
   BNpcName:         BNpcName;
   BNpcNameTarget:   string;
   BNpcNameTargetID: number;

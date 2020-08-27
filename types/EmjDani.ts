@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface EmjDani1 {
+export interface EmjDani {
   GameContentLinks: any[];
   ID:               number;
   Icon:             string;

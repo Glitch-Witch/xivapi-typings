@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CustomTalkNestHandlers7208961 {
+export interface CustomTalkNestHandlers {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               string;

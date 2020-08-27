@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface OpenContentCandidateName1 {
+export interface OpenContentCandidateName {
   GameContentLinks: any[];
   ID:               number;
   Name:             string;

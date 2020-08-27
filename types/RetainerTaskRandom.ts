@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface RetainerTaskRandom30001 {
+export interface RetainerTaskRandom {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

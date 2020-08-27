@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface RecipeLevelTable1 {
+export interface RecipeLevelTable {
   ClassJobLevel:          number;
   Difficulty:             number;
   Durability:             number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BNpcAnnounceIcon1 {
+export interface BNpcAnnounceIcon {
   GameContentLinks: any[];
   ID:               number;
   Icon:             string;

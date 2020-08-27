@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface LeveRewardItem1 {
+export interface LeveRewardItem {
   GameContentLinks:             GameContentLinks;
   ID:                           number;
   LeveRewardItemGroup0:         null;

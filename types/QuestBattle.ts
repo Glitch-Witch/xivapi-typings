@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface QuestBattle1_Class {
+export interface QuestBattle_Class {
   Banner:      string;
   ExName:      string;
   ExVersion:   number;

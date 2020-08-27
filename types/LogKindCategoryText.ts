@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface LogKindCategoryText1 {
+export interface LogKindCategoryText {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Patch:            null;

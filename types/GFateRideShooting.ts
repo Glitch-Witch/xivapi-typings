@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GFateRideShooting1 {
+export interface GFateRideShooting {
   ContentEntry:         ContentEntry;
   ContentEntryTarget:   string;
   ContentEntryTargetID: number;

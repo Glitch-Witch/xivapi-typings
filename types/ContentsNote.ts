@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ContentsNote1 {
+export interface ContentsNote {
   ContentType:         ContentType;
   ContentTypeTarget:   string;
   ContentTypeTargetID: number;

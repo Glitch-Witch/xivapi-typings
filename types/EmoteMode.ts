@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface EmoteMode1 {
+export interface EmoteMode {
   Camera:             number;
   ConditionMode:      number;
   EndEmote:           EmoteMode1_EndEmote;
@@ -39,7 +39,7 @@ export interface EmoteMode1 {
   Url:                string;
 }
 
-export interface EmoteMode1_EndEmote {
+export interface EmoteMode_EndEmote {
   ActionTimeline0:              ActionTimeline;
   ActionTimeline0Target:        string;
   ActionTimeline0TargetID:      number;

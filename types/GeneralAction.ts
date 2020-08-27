@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GeneralAction1 {
+export interface GeneralAction {
   Action:           null;
   ActionTarget:     string;
   ActionTargetID:   number;

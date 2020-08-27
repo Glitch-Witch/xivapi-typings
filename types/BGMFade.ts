@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BGMFade1 {
+export interface BGMFade {
   BGMFadeType:         BGMFadeType;
   BGMFadeTypeTarget:   string;
   BGMFadeTypeTargetID: number;

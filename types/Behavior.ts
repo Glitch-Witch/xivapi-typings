@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Behavior300000 {
+export interface Behavior {
   Balloon:          null;
   BalloonTarget:    string;
   BalloonTargetID:  number;

@@ -61,7 +61,7 @@ export enum WeaponTimelineTarget {
 }
 
 
-export interface ActionCastTimeline1 {
+export interface ActionCastTimeline {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Name:             Name;

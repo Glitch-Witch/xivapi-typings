@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Buddy1 {
+export interface Buddy {
   Base:                      number;
   BaseEquip:                 number;
   GameContentLinks:          any[];
@@ -61,7 +61,7 @@ export interface GamePatch {
   Version:     string;
 }
 
-export interface QuestRequirement1Class {
+export interface QuestRequirementClass {
   ACN?:                        number;
   ADV?:                        number;
   ALC?:                        number;

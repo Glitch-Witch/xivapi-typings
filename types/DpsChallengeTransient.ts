@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface DpsChallengeTransient1 {
+export interface DpsChallengeTransient {
   GameContentLinks:        any[];
   ID:                      number;
   InstanceContent:         InstanceContent;

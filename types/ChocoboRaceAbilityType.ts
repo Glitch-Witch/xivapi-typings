@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ChocoboRaceAbilityType1 {
+export interface ChocoboRaceAbilityType {
   GameContentLinks: GameContentLinks;
   ID:               number;
   IsActive:         number;

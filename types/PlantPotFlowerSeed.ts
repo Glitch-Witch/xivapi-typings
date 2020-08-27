@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface PlantPotFlowerSeed1 {
+export interface PlantPotFlowerSeed {
   GameContentLinks: any[];
   ID:               number;
   Patch:            null;

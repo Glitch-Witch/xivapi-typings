@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Salvage1 {
+export interface Salvage {
   GameContentLinks: GameContentLinks;
   ID:               number;
   OptimalSkill:     number;

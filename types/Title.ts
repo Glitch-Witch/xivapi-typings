@@ -25,7 +25,7 @@ export enum Icon {
 }
 
 
-export interface Title1 {
+export interface Title {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

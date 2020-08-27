@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface QuestRepeatFlag1 {
+export interface QuestRepeatFlag {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Patch:            null;

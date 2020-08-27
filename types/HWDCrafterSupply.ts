@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HWDCrafterSupply1 {
+export interface HWDCrafterSupply {
   BaseCollectableRating0:          number;
   BaseCollectableRating1:          number;
   BaseCollectableRating10:         number;
@@ -315,7 +315,7 @@ export interface HWDCrafterSupply1 {
   Url:                             string;
 }
 
-export interface BaseCollectableReward0 {
+export interface BaseCollectableReward {
   ExpReward:          number;
   ID:                 number;
   ScriptRewardAmount: number;

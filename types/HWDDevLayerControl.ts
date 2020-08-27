@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HWDDevLayerControl1 {
+export interface HWDDevLayerControl {
   GameContentLinks: any[];
   ID:               number;
   Patch:            null;

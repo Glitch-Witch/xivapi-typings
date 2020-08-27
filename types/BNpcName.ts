@@ -25,7 +25,7 @@ export enum Icon {
 }
 
 
-export interface BNpcName1 {
+export interface BNpcName {
   Adjective:         number;
   Article:           number;
   GameContentLinks:  GameContentLinks;

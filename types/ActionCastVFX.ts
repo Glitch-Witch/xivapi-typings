@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ActionCastVFX1 {
+export interface ActionCastVFX {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Patch:            null;

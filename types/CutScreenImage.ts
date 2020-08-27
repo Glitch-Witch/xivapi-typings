@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CutScreenImage1 {
+export interface CutScreenImage {
   GameContentLinks: any[];
   ID:               number;
   Image:            number;

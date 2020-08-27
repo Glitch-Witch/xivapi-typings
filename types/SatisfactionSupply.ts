@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface SatisfactionSupply10 {
+export interface SatisfactionSupply {
   CollectabilityHigh: number;
   CollectabilityLow:  number;
   CollectabilityMid:  number;
@@ -61,7 +61,7 @@ export interface GamePatch {
   Version:       string;
 }
 
-export interface SatisfactionSupply10_Item {
+export interface SatisfactionSupply_Item {
   AdditionalData:             number;
   Adjective:                  number;
   AetherialReduce:            number;
@@ -260,7 +260,7 @@ export interface RewardCurrency {
   Limit:        number;
 }
 
-export interface RewardCurrency0Item {
+export interface RewardCurrencyItem {
   AdditionalData:             number;
   Adjective:                  number;
   AetherialReduce:            number;

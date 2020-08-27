@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Perform1 {
+export interface Perform {
   AnimationEnd:            Animation;
   AnimationEndTarget:      string;
   AnimationEndTargetID:    number;

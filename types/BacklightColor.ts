@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BacklightColor1 {
+export interface BacklightColor {
   Color:            number;
   GameContentLinks: any[];
   ID:               number;

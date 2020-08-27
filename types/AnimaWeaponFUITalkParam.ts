@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AnimaWeaponFUITalkParam1 {
+export interface AnimaWeaponFUITalkParam {
   Epilogue:         string;
   Epilogue_de:      string;
   Epilogue_en:      string;

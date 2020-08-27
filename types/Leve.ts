@@ -25,7 +25,7 @@ export enum Icon {
 }
 
 
-export interface Leve1 {
+export interface Leve {
   AllowanceCost:              number;
   BGM:                        null;
   BGMTarget:                  string;

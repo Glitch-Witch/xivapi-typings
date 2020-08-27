@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface DawnQuestMember1 {
+export interface DawnQuestMember {
   BigImageNew:      string;
   BigImageNewID:    number;
   BigImageOld:      string;

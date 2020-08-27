@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface WeeklyBingoOrderData1 {
+export interface WeeklyBingoOrderData {
   Data:             number;
   GameContentLinks: any[];
   ID:               number;

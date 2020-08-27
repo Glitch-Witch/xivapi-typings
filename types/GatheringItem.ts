@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GatheringItem1 {
+export interface GatheringItem {
   GameContentLinks:           GameContentLinks;
   GamePatch:                  GamePatch;
   GatheringItemLevel:         GatheringItemLevel;

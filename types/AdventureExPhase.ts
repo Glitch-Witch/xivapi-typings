@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AdventureExPhase1 {
+export interface AdventureExPhase {
   AdventureBegin:         AdventureBegin;
   AdventureBeginTarget:   string;
   AdventureBeginTargetID: number;

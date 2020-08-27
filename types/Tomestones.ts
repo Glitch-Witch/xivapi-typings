@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Tomestones1 {
+export interface Tomestones {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Patch:            null;

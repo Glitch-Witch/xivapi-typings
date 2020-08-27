@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ModelSkeleton1 {
+export interface ModelSkeleton {
   FloatDown:        number;
   FloatHeight:      number;
   FloatUp:          number;

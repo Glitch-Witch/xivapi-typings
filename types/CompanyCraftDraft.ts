@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CompanyCraftDraft1 {
+export interface CompanyCraftDraft {
   CompanyCraftDraftCategory:         CompanyCraftDraftCategory;
   CompanyCraftDraftCategoryTarget:   string;
   CompanyCraftDraftCategoryTargetID: number;

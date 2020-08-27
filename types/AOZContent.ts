@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AOZContent1 {
+export interface AOZContent {
   Act1:                 number;
   Act1FightType:        number;
   Act2:                 number;

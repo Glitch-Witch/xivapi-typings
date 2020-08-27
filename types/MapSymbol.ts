@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MapSymbol1 {
+export interface MapSymbol {
   DisplayNavi:       number;
   GameContentLinks:  any[];
   ID:                number;

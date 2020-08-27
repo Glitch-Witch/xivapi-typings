@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ClassJob1 {
+export interface ClassJob {
   Abbreviation:               string;
   Abbreviation_de:            string;
   Abbreviation_en:            string;
@@ -47,13 +47,13 @@ export interface ClassJob1 {
   ItemStartingWeaponTarget:   string;
   ItemStartingWeaponTargetID: number;
   JobIndex:                   number;
-  LimitBreak1:                ClassJob1_LimitBreak1;
+  LimitBreak1:                ClassJob_LimitBreak;
   LimitBreak1Target:          string;
   LimitBreak1TargetID:        number;
-  LimitBreak2:                ClassJob1_LimitBreak1;
+  LimitBreak2:                ClassJob_LimitBreak;
   LimitBreak2Target:          string;
   LimitBreak2TargetID:        number;
-  LimitBreak3:                ClassJob1_LimitBreak1;
+  LimitBreak3:                ClassJob_LimitBreak;
   LimitBreak3Target:          string;
   LimitBreak3TargetID:        number;
   ModifierDexterity:          number;
@@ -589,13 +589,13 @@ export interface ClassJobUse {
   ItemStartingWeaponTarget:   string;
   ItemStartingWeaponTargetID: number;
   JobIndex:                   number;
-  LimitBreak1:                ClassJobUseLimitBreak1;
+  LimitBreak1:                ClassJobUseLimitBreak;
   LimitBreak1Target:          string;
   LimitBreak1TargetID:        number;
-  LimitBreak2:                ClassJobUseLimitBreak1;
+  LimitBreak2:                ClassJobUseLimitBreak;
   LimitBreak2Target:          string;
   LimitBreak2TargetID:        number;
-  LimitBreak3:                ClassJobUseLimitBreak1;
+  LimitBreak3:                ClassJobUseLimitBreak;
   LimitBreak3Target:          string;
   LimitBreak3TargetID:        number;
   ModifierDexterity:          number;
@@ -638,7 +638,7 @@ export interface ClassJobUse {
   UnlockQuestTargetID:        number;
 }
 
-export interface ClassJobUseLimitBreak1 {
+export interface ClassJobUseLimitBreak {
   ActionCategory:     number;
   ActionCombo:        number;
   ActionProcStatus:   number;
@@ -767,7 +767,7 @@ export interface ItemSearchCategoryClassJob {
   UnlockQuest:          number;
 }
 
-export interface ClassJob1_LimitBreak1 {
+export interface ClassJob_LimitBreak {
   ActionCategory:            StartingTown;
   ActionCategoryTarget:      string;
   ActionCategoryTargetID:    number;
@@ -835,7 +835,7 @@ export interface ClassJob1_LimitBreak1 {
   StatusGainSelfTargetID:    number;
   TargetArea:                number;
   UnlockLink:                number;
-  VFX:                       LimitBreak1VFX;
+  VFX:                       LimitBreakVFX;
   VFXTarget:                 string;
   VFXTargetID:               number;
   XAxisModifier:             number;
@@ -881,7 +881,7 @@ export interface AnimationStart {
   VFXTargetID:  number;
 }
 
-export interface LimitBreak1VFX {
+export interface LimitBreakVFX {
   ID:          number;
   VFX:         VfxVfx;
   VFXTarget:   string;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Marker1 {
+export interface Marker {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

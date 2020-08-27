@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HousingLandSet1 {
+export interface HousingLandSet {
   GameContentLinks: any[];
   ID:               number;
   InitialPrice0:    number;

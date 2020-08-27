@@ -26,7 +26,7 @@ export enum Icon {
 }
 
 
-export interface InstanceContent1 {
+export interface InstanceContent {
   BGM:                                           null;
   BGMTarget:                                     string;
   BGMTargetID:                                   number;

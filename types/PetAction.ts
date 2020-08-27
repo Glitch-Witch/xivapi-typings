@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface PetAction1 {
+export interface PetAction {
   Action:           null;
   ActionTarget:     string;
   ActionTargetID:   number;

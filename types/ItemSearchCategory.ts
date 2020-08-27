@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ItemSearchCategory1 {
+export interface ItemSearchCategory {
   Category:         number;
   ClassJob:         null;
   ClassJobTarget:   string;

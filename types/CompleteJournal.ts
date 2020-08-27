@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CompleteJournal1 {
+export interface CompleteJournal {
   Cutscene0:          null;
   Cutscene0Target:    string;
   Cutscene0TargetID:  number;

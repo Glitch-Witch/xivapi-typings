@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface PreHandler3538944 {
+export interface PreHandler {
   AcceptMessage:         null;
   AcceptMessageTarget:   string;
   AcceptMessageTargetID: number;

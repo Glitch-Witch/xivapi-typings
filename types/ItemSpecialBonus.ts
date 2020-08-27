@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ItemSpecialBonus1 {
+export interface ItemSpecialBonus {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

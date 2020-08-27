@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BNpcState1 {
+export interface BNpcState {
   Attribute0:       number;
   Attribute1:       number;
   Attribute2:       number;

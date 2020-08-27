@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ScenarioTreeTips1 {
+export interface ScenarioTreeTips {
   GameContentLinks: any[];
   ID:               number;
   Patch:            null;

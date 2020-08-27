@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GCShopItemCategory1 {
+export interface GCShopItemCategory {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

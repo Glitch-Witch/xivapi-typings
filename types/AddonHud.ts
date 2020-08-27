@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AddonHud1 {
+export interface AddonHud {
   Function:         string;
   Function_de:      string;
   Function_en:      string;

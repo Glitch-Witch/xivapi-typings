@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ENpcBase1000000 {
+export interface ENpcBase {
   Balloon:              null;
   BalloonTarget:        string;
   BalloonTargetID:      number;

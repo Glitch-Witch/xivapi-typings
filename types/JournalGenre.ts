@@ -30,7 +30,7 @@ export enum Icon {
 }
 
 
-export interface JournalGenre1 {
+export interface JournalGenre {
   GameContentLinks:        GameContentLinks;
   GamePatch:               GamePatch;
   ID:                      number;

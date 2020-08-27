@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface PartyContentTextData1000 {
+export interface PartyContentTextData {
   Data:             string;
   Data_de:          string;
   Data_en:          string;

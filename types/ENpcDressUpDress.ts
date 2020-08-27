@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ENpcDressUpDress10 {
+export interface ENpcDressUpDress {
   "AddedIn5-30":       number;
   Behavior:            null;
   BehaviorTarget:      string;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ExportedSG1064 {
+export interface ExportedSG {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ChocoboRaceTutorial1 {
+export interface ChocoboRaceTutorial {
   GameContentLinks: any[];
   ID:               number;
   NpcYell0:         null;

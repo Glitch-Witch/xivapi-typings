@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ContentRouletteOpenRule1 {
+export interface ContentRouletteOpenRule {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Patch:            null;

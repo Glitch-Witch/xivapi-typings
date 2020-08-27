@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BehaviorPath1 {
+export interface BehaviorPath {
   GameContentLinks: any[];
   ID:               number;
   IsFadeIn:         number;

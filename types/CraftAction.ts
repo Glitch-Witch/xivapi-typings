@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CraftAction100000 {
+export interface CraftAction {
   ALC:                      null;
   ALCTarget:                string;
   ALCTargetID:              number;

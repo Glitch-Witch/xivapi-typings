@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ManeuversArmor1 {
+export interface ManeuversArmor {
   BNpcBase0:         BNpcBase;
   BNpcBase0Target:   string;
   BNpcBase0TargetID: number;

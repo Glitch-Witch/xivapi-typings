@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Emote1 {
+export interface Emote {
   ActionTimeline0:              ActionTimeline;
   ActionTimeline0Target:        string;
   ActionTimeline0TargetID:      number;

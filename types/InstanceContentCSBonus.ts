@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface InstanceContentCSBonus1 {
+export interface InstanceContentCSBonus {
   GameContentLinks: any[];
   ID:               number;
   Instance:         Instance;

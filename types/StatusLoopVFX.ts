@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface StatusLoopVFX1 {
+export interface StatusLoopVFX {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Patch:            null;

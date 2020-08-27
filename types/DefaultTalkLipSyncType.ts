@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface DefaultTalkLipSyncType1 {
+export interface DefaultTalkLipSyncType {
   ActionTimeline:         null;
   ActionTimelineTarget:   string;
   ActionTimelineTargetID: number;

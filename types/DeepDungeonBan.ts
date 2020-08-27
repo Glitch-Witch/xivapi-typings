@@ -37,7 +37,7 @@ export interface Name {
 }
 
 
-export interface DeepDungeonBan1 {
+export interface DeepDungeonBan {
   GameContentLinks:    any[];
   ID:                  number;
   LogMessage:          LogMessage;

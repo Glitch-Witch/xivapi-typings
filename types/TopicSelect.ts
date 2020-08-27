@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface TopicSelect3276800 {
+export interface TopicSelect {
   GameContentLinks: any[];
   ID:               number;
   Name:             string;

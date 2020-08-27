@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AirshipExplorationPart1 {
+export interface AirshipExplorationPart {
   Components:       number;
   Favor:            string;
   GameContentLinks: any[];

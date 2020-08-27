@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MobHuntReward1 {
+export interface MobHuntReward {
   CurrencyReward:    number;
   ExpReward:         number;
   Expansion:         Expansion;

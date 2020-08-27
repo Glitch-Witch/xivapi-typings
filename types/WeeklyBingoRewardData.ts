@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface WeeklyBingoRewardData1 {
+export interface WeeklyBingoRewardData {
   GameContentLinks:      GameContentLinks;
   ID:                    number;
   Patch:                 null;

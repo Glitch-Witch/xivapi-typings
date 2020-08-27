@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ActivityFeedCaptions1 {
+export interface ActivityFeedCaptions {
   DE:               string;
   DE_en:            string;
   EN:               string;

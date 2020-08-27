@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HWDSharedGroup10 {
+export interface HWDSharedGroup {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               string;

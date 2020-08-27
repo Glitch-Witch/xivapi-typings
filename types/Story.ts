@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Story1703936 {
+export interface Story {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Omen1 {
+export interface Omen {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

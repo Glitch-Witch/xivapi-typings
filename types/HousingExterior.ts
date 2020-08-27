@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HousingExterior513 {
+export interface HousingExterior {
   GameContentLinks:  any[];
   GamePatch:         GamePatch;
   HousingSize:       number;

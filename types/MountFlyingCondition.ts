@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MountFlyingCondition1 {
+export interface MountFlyingCondition {
   GameContentLinks: GameContentLinks;
   ID:               number;
   Patch:            null;

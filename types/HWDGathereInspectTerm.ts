@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HWDGathereInspectTerm1 {
+export interface HWDGathereInspectTerm {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

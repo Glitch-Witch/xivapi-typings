@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MonsterNoteTarget1 {
+export interface MonsterNoteTarget {
   BNpcName:                   BNpcName;
   BNpcNameTarget:             string;
   BNpcNameTargetID:           number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ActionCategory1 {
+export interface ActionCategory {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

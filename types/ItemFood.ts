@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ItemFood1 {
+export interface ItemFood {
   BaseParam0:         null;
   BaseParam0Target:   string;
   BaseParam0TargetID: number;

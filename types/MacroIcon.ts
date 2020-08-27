@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MacroIcon1 {
+export interface MacroIcon {
   GameContentLinks: any[];
   ID:               number;
   Icon:             string;

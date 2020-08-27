@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AozAction1 {
+export interface AozAction {
   Action:           Action;
   ActionTarget:     string;
   ActionTargetID:   number;

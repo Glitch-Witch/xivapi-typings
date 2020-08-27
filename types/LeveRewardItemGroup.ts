@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface LeveRewardItemGroup1 {
+export interface LeveRewardItemGroup {
   Count0:           number;
   Count1:           number;
   Count2:           number;

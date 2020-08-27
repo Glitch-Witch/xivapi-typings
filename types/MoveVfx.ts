@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MoveVfx1 {
+export interface MoveVfx {
   GameContentLinks:   any[];
   ID:                 number;
   Patch:              null;

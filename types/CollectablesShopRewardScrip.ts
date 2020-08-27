@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CollectablesShopRewardScrip1 {
+export interface CollectablesShopRewardScrip {
   Currency:         Currency;
   CurrencyTarget:   string;
   CurrencyTargetID: number;

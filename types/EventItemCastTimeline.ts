@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface EventItemCastTimeline1 {
+export interface EventItemCastTimeline {
   ActionTimeline:         ActionTimeline;
   ActionTimelineTarget:   string;
   ActionTimelineTargetID: number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Stain1 {
+export interface Stain {
   Color:                  number;
   GameContentLinks:       GameContentLinks;
   GamePatch:              GamePatch;
@@ -85,7 +85,7 @@ export interface GamePatch {
   Version:     string;
 }
 
-export interface Item1 {
+export interface Item {
   AdditionalData:             number;
   Adjective:                  number;
   AetherialReduce:            number;

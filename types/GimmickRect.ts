@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GimmickRect1 {
+export interface GimmickRect {
   GameContentLinks: any[];
   ID:               number;
   LayoutID:         number;

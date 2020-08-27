@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface AozActionTransient1 {
+export interface AozActionTransient {
   Description:        string;
   Description_de:     string;
   Description_en:     string;

@@ -296,7 +296,7 @@ export enum VFXTarget {
 }
 
 
-export interface ContentExAction1 {
+export interface ContentExAction {
   Charges:          number;
   GameContentLinks: any[];
   ID:               number;

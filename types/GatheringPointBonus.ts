@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GatheringPointBonus1 {
+export interface GatheringPointBonus {
   "AddedIn5-3":      number;
   BonusType:         BonusType;
   BonusTypeTarget:   string;

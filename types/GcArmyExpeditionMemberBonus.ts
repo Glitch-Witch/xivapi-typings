@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GcArmyExpeditionMemberBonus1 {
+export interface GcArmyExpeditionMemberBonus {
   ClassJob:         null;
   ClassJobTarget:   string;
   ClassJobTargetID: number;

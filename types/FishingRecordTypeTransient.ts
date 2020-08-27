@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface FishingRecordTypeTransient1 {
+export interface FishingRecordTypeTransient {
   GameContentLinks: any[];
   ID:               number;
   Image:            string;

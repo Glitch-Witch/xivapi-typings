@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface LogKind1 {
+export interface LogKind {
   Format:           string;
   Format_de:        string;
   Format_en:        string;

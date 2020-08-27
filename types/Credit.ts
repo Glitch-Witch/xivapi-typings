@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Credit10 {
+export interface Credit {
   EnglishCast1:          null;
   EnglishCast1Target:    string;
   EnglishCast1TargetID:  number;
@@ -80,7 +80,7 @@ export interface GamePatch {
   Version:       string;
 }
 
-export interface JapaneseCast1 {
+export interface JapaneseCast {
   ID:      number;
   Name:    string;
   Name_de: string;

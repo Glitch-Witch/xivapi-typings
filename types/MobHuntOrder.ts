@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MobHuntOrder10 {
+export interface MobHuntOrder {
   GameContentLinks:      any[];
   GamePatch:             GamePatch;
   ID:                    string;

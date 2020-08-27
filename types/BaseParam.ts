@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BaseParam1 {
+export interface BaseParam {
   "1HWpn%":                  number;
   "2HWpn%":                  number;
   "Bracelet%":               number;

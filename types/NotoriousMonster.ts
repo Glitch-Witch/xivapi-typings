@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface NotoriousMonster1 {
+export interface NotoriousMonster {
   BNpcBase:         BNpcBase;
   BNpcBaseTarget:   string;
   BNpcBaseTargetID: number;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface LeveVfx1 {
+export interface LeveVfx {
   Effect:           string;
   Effect_en:        string;
   GameContentLinks: GameContentLinks;

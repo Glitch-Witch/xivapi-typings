@@ -28,7 +28,7 @@ export enum Name {
 }
 
 
-export interface CollectablesShopItemGroup1 {
+export interface CollectablesShopItemGroup {
   GameContentLinks: any[];
   ID:               number;
   Name:             string;

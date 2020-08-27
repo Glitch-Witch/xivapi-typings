@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Achievement1 {
+export interface Achievement {
   AchievementCategory:              AchievementCategory;
   AchievementCategoryTarget:        string;
   AchievementCategoryTargetID:      number;

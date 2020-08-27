@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface GatheringPointTransient30000 {
+export interface GatheringPointTransient {
   EphemeralEndTime:                  number;
   EphemeralStartTime:                number;
   GameContentLinks:                  any[];

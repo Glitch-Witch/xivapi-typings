@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ContentFinderCondition1 {
+export interface ContentFinderCondition {
   AcceptClassJobCategory:         AcceptClassJobCategory;
   AcceptClassJobCategoryTarget:   string;
   AcceptClassJobCategoryTargetID: number;
@@ -192,7 +192,7 @@ export interface GamePatch {
   Version:       string;
 }
 
-export interface ContentFinderCondition1_TerritoryType {
+export interface ContentFinderCondition_TerritoryType {
   AchievementIndex:          string;
   "AddedIn5-3":              number;
   Aetheryte:                 null;

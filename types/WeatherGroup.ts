@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface WeatherGroup1280 {
+export interface WeatherGroup {
   GameContentLinks:    any[];
   GamePatch:           GamePatch;
   ID:                  string;

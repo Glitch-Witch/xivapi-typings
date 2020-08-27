@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface HousingEmploymentNpcList10 {
+export interface HousingEmploymentNpcList {
   ENpcBase0:         ENpcBase0;
   ENpcBase0Target:   string;
   ENpcBase0TargetID: number;
@@ -38,7 +38,7 @@ export interface HousingEmploymentNpcList10 {
   Url:               string;
 }
 
-export interface ENpcBase0 {
+export interface ENpcBase {
   Balloon:              null;
   BalloonTarget:        string;
   BalloonTargetID:      number;
@@ -410,7 +410,7 @@ export enum ModelMain {
   The85200 = "85, 2, 0, 0",
 }
 
-export interface ENpcBase0Tribe {
+export interface ENpcBaseTribe {
   DEX:           number;
   Hp:            number;
   ID:            number;
@@ -432,7 +432,7 @@ export interface ENpcBase0Tribe {
   VIT:           number;
 }
 
-export interface ENpcBase1 {
+export interface ENpcBase {
   Balloon:              null;
   BalloonTarget:        string;
   BalloonTargetID:      number;
@@ -565,7 +565,7 @@ export interface ENpcBase1 {
   Visor:                number;
 }
 
-export interface ENpcBase1Tribe {
+export interface ENpcBaseTribe {
   DEX:           string;
   Hp:            number;
   ID:            number;

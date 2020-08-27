@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ConfigKey11 {
+export interface ConfigKey {
   Category:         number;
   GameContentLinks: any[];
   GamePatch:        GamePatch;

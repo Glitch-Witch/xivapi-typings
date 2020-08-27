@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MinionRace1 {
+export interface MinionRace {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

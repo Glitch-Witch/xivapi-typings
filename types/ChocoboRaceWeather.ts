@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface ChocoboRaceWeather1 {
+export interface ChocoboRaceWeather {
   GameContentLinks:     any[];
   ID:                   number;
   Patch:                null;

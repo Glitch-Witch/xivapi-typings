@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface TutorialDPS1 {
+export interface TutorialDPS {
   GameContentLinks:  any[];
   ID:                number;
   Objective:         TutorialDPS1_Objective;
@@ -31,7 +31,7 @@ export interface TutorialDPS1 {
   Url:               string;
 }
 
-export interface TutorialDPS1_Objective {
+export interface TutorialDPS_Objective {
   Exp:                  number;
   Gil:                  number;
   ID:                   number;

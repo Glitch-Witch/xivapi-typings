@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface VaseFlower1 {
+export interface VaseFlower {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

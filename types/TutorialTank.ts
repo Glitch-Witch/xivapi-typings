@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface TutorialTank1 {
+export interface TutorialTank {
   GameContentLinks:  any[];
   ID:                number;
   Objective:         TutorialTank1_Objective;
@@ -31,7 +31,7 @@ export interface TutorialTank1 {
   Url:               string;
 }
 
-export interface TutorialTank1_Objective {
+export interface TutorialTank_Objective {
   Exp:                  number;
   Gil:                  number;
   ID:                   number;

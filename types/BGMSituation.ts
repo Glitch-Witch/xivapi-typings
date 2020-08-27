@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BGMSituation1000 {
+export interface BGMSituation {
   BattleID:           null;
   BattleIDTarget:     string;
   BattleIDTargetID:   number;

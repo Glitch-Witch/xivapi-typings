@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CompanionMove1 {
+export interface CompanionMove {
   GameContentLinks: GameContentLinks;
   GamePatch:        GamePatch;
   ID:               number;

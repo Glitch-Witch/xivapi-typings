@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Calendar1 {
+export interface Calendar {
   Day0:             number;
   Day1:             number;
   Day10:            number;

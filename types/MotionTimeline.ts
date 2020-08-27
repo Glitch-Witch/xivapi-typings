@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface MotionTimeline1 {
+export interface MotionTimeline {
   BlendGroup:       number;
   Filename:         string;
   Filename_en:      string;

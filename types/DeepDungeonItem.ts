@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface DeepDungeonItem1 {
+export interface DeepDungeonItem {
   Action:            Action;
   ActionTarget:      string;
   ActionTargetID:    number;

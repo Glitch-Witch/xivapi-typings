@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CraftLevelDifference1 {
+export interface CraftLevelDifference {
   Difference:       string;
   GameContentLinks: any[];
   ID:               number;

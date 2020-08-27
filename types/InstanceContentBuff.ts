@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface InstanceContentBuff1 {
+export interface InstanceContentBuff {
   EchoDeath:        number;
   EchoStart:        number;
   GameContentLinks: GameContentLinks;

@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface PartyContent1 {
+export interface PartyContent {
   ContentFinderCondition:         ContentFinderCondition;
   ContentFinderConditionTarget:   string;
   ContentFinderConditionTargetID: number;

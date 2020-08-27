@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface CompanionTransient1 {
+export interface CompanionTransient {
   Attack:                      number;
   Defense:                     number;
   Description:                 string;

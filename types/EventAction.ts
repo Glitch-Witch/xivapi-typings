@@ -29,7 +29,7 @@ export enum Icon {
 }
 
 
-export interface EventAction1 {
+export interface EventAction {
   Animation0:         Animation;
   Animation0Target:   string;
   Animation0TargetID: number;

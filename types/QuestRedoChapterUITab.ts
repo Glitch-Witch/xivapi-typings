@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface QuestRedoChapterUITab1 {
+export interface QuestRedoChapterUITab {
   GameContentLinks: any[];
   GamePatch:        GamePatch;
   ID:               number;

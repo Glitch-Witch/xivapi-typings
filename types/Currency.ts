@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface Currency1 {
+export interface Currency {
   GameContentLinks: any[];
   ID:               number;
   Item:             Item;

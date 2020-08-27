@@ -21,7 +21,7 @@ export interface Result {
 }
 
 
-export interface BeastReputationRank1 {
+export interface BeastReputationRank {
   AlliedNames:        string;
   AlliedNames_de:     string;
   AlliedNames_en:     string;
