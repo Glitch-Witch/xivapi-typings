@@ -29,8 +29,17 @@ async function quicktypeJSON(targetLanguage: string, typeName: string, jsonStrin
     inputData,
     lang: targetLanguage,
     indentation: "  ",
-    rendererOptions: { "just-types": "Interface only" }
+    rendererOptions: { "just-types": "Interface only" },
   });
+}
+
+const emptyResult = { text: "", next: "" };
+
+function lineTransforms(line: string) {
+  if (line.includes("export interface")) {
+    line = line.replace(/export interface (\w+)/, "export type $1 =");
+  }
+  return line.padStart(line.length + 2, " ");
 }
 
 async function typeFromEndpoint(endpoint: string, isIndex: boolean) {
@@ -41,38 +50,46 @@ async function typeFromEndpoint(endpoint: string, isIndex: boolean) {
 
     let nexturl = "";
 
-    if (!result.status.toString().startsWith("2")) {
-      return {
-        text: "",
-        next: ""
-      };
-    }
+    if (!result.status.toString().startsWith("2")) return emptyResult;
+
 
     if (isIndex) {
       const jsondata = await result.clone().json();
       nexturl = jsondata?.Results[0]?.Url ?? ""
     }
 
-    const $type = await quicktypeJSON("typescript", `${endpoint}${nameSuffix}`, await result.text());
+    const $type = await quicktypeJSON("typescript", `${endpoint.replace(/\d+/, "")}${nameSuffix}`, await result.text());
     return {
-      text: $type.lines.join("\n"),
+      text: $type.lines.map(lineTransforms).join("\n"),
       next: nexturl
     }
   } catch(ex) {
     console.trace(ex);
-    return { text: "", next: "" };
+    return emptyResult;
   }
+}
+
+function nameSpacer(name: string, input: string, index: boolean) {
+return `
+export namespace ${name}NS {
+${input}
+}
+
+export type ${index ? "Index" : name} = ${name}NS.${name};
+`
 }
 
 async function typingFileFromEndpoint(endpoint: string) {
   try {
     let text: string = "";
     const idx = await typeFromEndpoint(endpoint, true);
-    text += idx.text;
+    text += nameSpacer(`${endpoint}Index`, idx.text, true);
+
     if (idx.next.length > 0) {
       const mn = await typeFromEndpoint(idx.next.replace(/^\//, ""), false);
-      text += `\n\n${mn.text}`;
+      text += nameSpacer(endpoint, mn.text, false);
     }
+
     const filename = path.resolve(__dirname, "types", `${endpoint}.ts`);
     return await fs.writeFile(filename, text, "utf-8");
   } catch(ex) {
@@ -82,20 +99,31 @@ async function typingFileFromEndpoint(endpoint: string) {
 }
 
 export async function main() {
+  try {
+    const content: string[] = await api.get("content").json();
+    let limit = 0;
 
-  const content: string[] = await api.get("content").json();
-  let limit = 0;
-
-  for await (const endpoint of content) {
-    if (!(limit++ % 10)) await sleep(1000);
-    try {
-      await typingFileFromEndpoint(endpoint);
-    } catch(ex) {
-      console.trace(ex)
-      break;
+    for await (const endpoint of content) {
+      if (!(limit++ % 10)) await sleep(1000);
+      try {
+        await typingFileFromEndpoint(endpoint);
+      } catch(ex) {
+        console.trace(ex)
+        break;
+      }
     }
+  } catch(ex) {
+    console.trace(ex);
   }
+}
 
+export async function test() {
+  const endpoint = "ChocoboRace";
+  try {
+    await typingFileFromEndpoint(endpoint);
+  } catch(ex) {
+    console.trace(ex);
+  }
 }
 
 main();
