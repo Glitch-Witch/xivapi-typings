@@ -46,7 +46,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 exports.__esModule = true;
-exports.main = void 0;
+exports.test = exports.main = void 0;
 require("dotenv").config();
 var ky_universal_1 = __importDefault(require("ky-universal"));
 var quicktype_core_1 = require("quicktype-core");
@@ -83,6 +83,12 @@ function quicktypeJSON(targetLanguage, typeName, jsonString) {
     });
 }
 var emptyResult = { text: "", next: "" };
+function lineTransforms(line) {
+    if (line.includes("export interface")) {
+        line = line.replace(/export interface (\w+)/, "export type $1 =");
+    }
+    return line.padStart(line.length + 2, " ");
+}
 function typeFromEndpoint(endpoint, isIndex) {
     var _a, _b;
     return __awaiter(this, void 0, void 0, function () {
@@ -106,21 +112,13 @@ function typeFromEndpoint(endpoint, isIndex) {
                     _e.label = 3;
                 case 3:
                     _c = quicktypeJSON;
-                    _d = ["typescript", "" + endpoint.replace(/\d+/, "") + nameSuffix];
+                    _d = ["typescript", "" + endpoint.replace(/\d/g, "") + nameSuffix];
                     return [4 /*yield*/, result.text()];
                 case 4: return [4 /*yield*/, _c.apply(void 0, _d.concat([_e.sent()]))];
                 case 5:
                     $type = _e.sent();
                     return [2 /*return*/, {
-                            text: $type.lines
-                                .map(function (l) {
-                                if (l.includes("export interface")) {
-                                    return l.replace(/export interface (\w+)/, "export type $1 =");
-                                }
-                                return l;
-                            })
-                                .map(function (l) { return l.padStart(l.length + 2, " "); })
-                                .join("\n"),
+                            text: $type.lines.map(lineTransforms).join("\n"),
                             next: nexturl
                         }];
                 case 6:
@@ -133,7 +131,7 @@ function typeFromEndpoint(endpoint, isIndex) {
     });
 }
 function nameSpacer(name, input, index) {
-    return "\nnamespace " + name + "NS {\n" + input + "\n}\n\nexport type " + (index ? "Index" : name) + " = " + name + "NS." + name + ";\n";
+    return "\nexport namespace " + name + "NS {\n" + input + "\n}\n\nexport type " + (index ? "Index" : name) + " = " + name + "NS." + name + ";\n";
 }
 function typingFileFromEndpoint(endpoint) {
     return __awaiter(this, void 0, void 0, function () {
@@ -169,10 +167,12 @@ function typingFileFromEndpoint(endpoint) {
 function main() {
     var e_1, _a;
     return __awaiter(this, void 0, void 0, function () {
-        var content, limit, content_1, content_1_1, endpoint, ex_3, e_1_1;
+        var content, limit, content_1, content_1_1, endpoint, ex_3, e_1_1, ex_4;
         return __generator(this, function (_b) {
             switch (_b.label) {
-                case 0: return [4 /*yield*/, api.get("content").json()];
+                case 0:
+                    _b.trys.push([0, 18, , 19]);
+                    return [4 /*yield*/, api.get("content").json()];
                 case 1:
                     content = _b.sent();
                     limit = 0;
@@ -218,19 +218,24 @@ function main() {
                     if (e_1) throw e_1.error;
                     return [7 /*endfinally*/];
                 case 16: return [7 /*endfinally*/];
-                case 17: return [2 /*return*/];
+                case 17: return [3 /*break*/, 19];
+                case 18:
+                    ex_4 = _b.sent();
+                    console.trace(ex_4);
+                    return [3 /*break*/, 19];
+                case 19: return [2 /*return*/];
             }
         });
     });
 }
 exports.main = main;
-function _example() {
+function test() {
     return __awaiter(this, void 0, void 0, function () {
-        var endpoint, ex_4;
+        var endpoint, ex_5;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
-                    endpoint = "ChocoboRace";
+                    endpoint = "AnimaWeaponItem";
                     _a.label = 1;
                 case 1:
                     _a.trys.push([1, 3, , 4]);
@@ -239,13 +244,14 @@ function _example() {
                     _a.sent();
                     return [3 /*break*/, 4];
                 case 3:
-                    ex_4 = _a.sent();
-                    console.trace(ex_4);
+                    ex_5 = _a.sent();
+                    console.trace(ex_5);
                     return [3 /*break*/, 4];
                 case 4: return [2 /*return*/];
             }
         });
     });
 }
-_example();
+exports.test = test;
 // main();
+test();

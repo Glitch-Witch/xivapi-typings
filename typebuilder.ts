@@ -58,7 +58,7 @@ async function typeFromEndpoint(endpoint: string, isIndex: boolean) {
       nexturl = jsondata?.Results[0]?.Url ?? ""
     }
 
-    const $type = await quicktypeJSON("typescript", `${endpoint.replace(/\d+/, "")}${nameSuffix}`, await result.text());
+    const $type = await quicktypeJSON("typescript", `${endpoint.replace(/\d/g, "")}${nameSuffix}`, await result.text());
     return {
       text: $type.lines.map(lineTransforms).join("\n"),
       next: nexturl
@@ -118,7 +118,7 @@ export async function main() {
 }
 
 export async function test() {
-  const endpoint = "ChocoboRace";
+  const endpoint = "AnimaWeaponItem";
   try {
     await typingFileFromEndpoint(endpoint);
   } catch(ex) {
@@ -126,4 +126,5 @@ export async function test() {
   }
 }
 
-main();
+// main();
+test();
