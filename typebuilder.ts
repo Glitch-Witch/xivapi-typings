@@ -44,25 +44,25 @@ function lineTransforms(line: string) {
 
 async function typeFromEndpoint(endpoint: string, isIndex: boolean) {
   try {
-    const nameSuffix = isIndex ? "Index" : "";
-
     const result = await api.get(`${endpoint}`);
-
     let nexturl = "";
 
-    if (!result.status.toString().startsWith("2")) return emptyResult;
-
+    if (!result.status.toString().startsWith("2")) {
+      return emptyResult
+    }
 
     if (isIndex) {
       const jsondata = await result.clone().json();
       nexturl = jsondata?.Results[0]?.Url ?? ""
     }
 
-    const $type = await quicktypeJSON("typescript", `${endpoint.replace(/\d/g, "")}${nameSuffix}`, await result.text());
+    const typeName = `${endpoint.replace(/\d/g, "")}${isIndex ? "Index" : ""}`
+    const $type = await quicktypeJSON("typescript", typeName, await result.text());
     return {
       text: $type.lines.map(lineTransforms).join("\n"),
       next: nexturl
     }
+
   } catch(ex) {
     console.trace(ex);
     return emptyResult;
@@ -81,7 +81,7 @@ export type ${index ? "Index" : name} = ${name}NS.${name};
 
 async function typingFileFromEndpoint(endpoint: string) {
   try {
-    let text: string = "";
+    let text = "";
     const idx = await typeFromEndpoint(endpoint, true);
     text += nameSpacer(`${endpoint}Index`, idx.text, true);
 
@@ -98,9 +98,40 @@ async function typingFileFromEndpoint(endpoint: string) {
   }
 }
 
+export async function makeAbstractConsumerTypes() {
+
+  const typesPath = path.resolve(__dirname, "types");
+  const imports: string[] = [];
+  const IndexForPageFor = [ "T extends null ? null :" ];
+  const ApiResultFor = [ "T extends null ? null :" ];
+
+  const dir = await fs.readdir(typesPath, { withFileTypes: true });
+  for await (const item of dir) {
+    const name = path.basename(path.resolve(typesPath, item.name), ".ts");
+    if (name === "IndexType") continue;
+    imports.push(`import { Index as ${name}Index, ${name} } from "./types/${name}";`);
+    IndexForPageFor.push(`T extends "${name}" ? ${name}Index :`);
+    ApiResultFor.push(`T extends "${name}" ? ${name} :`);
+  }
+
+  IndexForPageFor.push("void;");
+  ApiResultFor.push("void;");
+
+  const toWrite = imports.join("\n")
+    + "\n"
+    + "export type IndexPageFor<T> =\n"
+    + IndexForPageFor.map(e => e.padStart(e.length + 2, " ")).join("\n")
+    + "\n"
+    + "export type ApiResultFor<T> =\n"
+    + ApiResultFor.map(e => e.padStart(e.length + 2, " ")).join("\n");
+
+  await fs.writeFile(path.resolve(__dirname, "types.ts"), toWrite, "utf-8");
+
+}
+
 export async function main() {
   try {
-    const content: string[] = await api.get("content").json();
+    const content = await api.get("content").json<string[]>();
     let limit = 0;
 
     for await (const endpoint of content) {
@@ -112,6 +143,7 @@ export async function main() {
         break;
       }
     }
+    await makeAbstractConsumerTypes();
   } catch(ex) {
     console.trace(ex);
   }
