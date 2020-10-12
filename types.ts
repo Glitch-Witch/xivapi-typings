@@ -612,7 +612,6 @@ import { Index as YardCatalogItemListIndex, YardCatalogItemList } from "./types/
 import { Index as YKWIndex, YKW } from "./types/YKW";
 import { Index as ZoneSharedGroupIndex, ZoneSharedGroup } from "./types/ZoneSharedGroup";
 export type IndexPageFor<T> =
-  T extends null ? null :
   T extends "Achievement" ? AchievementIndex :
   T extends "AchievementCategory" ? AchievementCategoryIndex :
   T extends "AchievementHideCondition" ? AchievementHideConditionIndex :
@@ -1230,7 +1229,6 @@ export type IndexPageFor<T> =
 
 
 export type ApiResultFor<T> =
-  T extends null ? null :
   T extends "Achievement" ? Achievement :
   T extends "AchievementCategory" ? AchievementCategory :
   T extends "AchievementHideCondition" ? AchievementHideCondition :
