@@ -1,21 +1,24 @@
 require("dotenv").config();
 
+import fs from "fs/promises";
+import path from "path";
+import { promisify } from "util";
+
 import ky from "ky-universal";
 
 import { jsonInputForTargetLanguage, InputData, quicktype } from "quicktype-core";
 
-import fs from "fs/promises";
-import path from "path";
-
-const APIBASE = "https://xivapi.com";
+if (!process.env.PRIVATE_KEY) {
+  throw new Error("Your XIVAPI private key must be defined in the .env file.");
+}
 
 const api = ky.extend({
-  prefixUrl: APIBASE,
+  prefixUrl: "https://xivapi.com",
   searchParams: { private_key: process.env.PRIVATE_KEY },
   retry: 1
 });
 
-const sleep = (ms: number)=> new Promise((resolve)=> setTimeout(resolve, ms));
+const timeout = promisify(setTimeout);
 
 async function quicktypeJSON(targetLanguage: string, typeName: string, jsonString: string) {
   const jsonInput = jsonInputForTargetLanguage(targetLanguage);
@@ -29,7 +32,7 @@ async function quicktypeJSON(targetLanguage: string, typeName: string, jsonStrin
     inputData,
     lang: targetLanguage,
     indentation: "  ",
-    rendererOptions: { "just-types": "Interface only" },
+    rendererOptions: { "just-types": "Interface only" }
   });
 }
 
@@ -44,23 +47,23 @@ function lineTransforms(line: string) {
 
 async function typeFromEndpoint(endpoint: string, isIndex: boolean) {
   try {
-    const result = await api.get(`${endpoint}`);
-    let nexturl = "";
+    const result = await api.get(endpoint);
+    let nextUrl = "";
 
     if (!result.status.toString().startsWith("2")) {
       return emptyResult
     }
 
     if (isIndex) {
-      const jsondata = await result.clone().json();
-      nexturl = jsondata?.Results[0]?.Url ?? ""
+      const jsonData = await result.clone().json();
+      nextUrl = jsonData?.Results[0]?.Url ?? ""
     }
 
     const typeName = `${endpoint.replace(/\d/g, "")}${isIndex ? "Index" : ""}`
-    const $type = await quicktypeJSON("typescript", typeName, await result.text());
+    const typeResult = await quicktypeJSON("typescript", typeName, await result.text());
     return {
-      text: $type.lines.map(lineTransforms).join("\n"),
-      next: nexturl
+      text: typeResult.lines.map(lineTransforms).join("\n"),
+      next: nextUrl
     }
 
   } catch(ex) {
@@ -117,13 +120,14 @@ export async function makeAbstractConsumerTypes() {
   IndexForPageFor.push("void;");
   ApiResultFor.push("void;");
 
-  const toWrite = imports.join("\n")
-    + "\n"
-    + "export type IndexPageFor<T> =\n"
-    + IndexForPageFor.map(e => e.padStart(e.length + 2, " ")).join("\n")
-    + "\n"
-    + "export type ApiResultFor<T> =\n"
-    + ApiResultFor.map(e => e.padStart(e.length + 2, " ")).join("\n");
+  const toWrite = imports.join("\n") + [
+    , ""
+    , "export type IndexPageFor<T> ="
+    , IndexForPageFor.map(e => e.padStart(e.length + 2, " ")).join("\n")
+    , ""
+    , "export type ApiResultFor<T> ="
+    , ApiResultFor.map(e => e.padStart(e.length + 2, " ")).join("\n")
+  ].join("\n");
 
   await fs.writeFile(path.resolve(__dirname, "types.ts"), toWrite, "utf-8");
 
@@ -135,7 +139,8 @@ export async function main() {
     let limit = 0;
 
     for await (const endpoint of content) {
-      if (!(limit++ % 10)) await sleep(1000);
+      // Wait 10 seconds every 10 pings so we don't trigger the rate limit autoban
+      if (!(limit++ % 10)) await timeout(2000);
       try {
         await typingFileFromEndpoint(endpoint);
       } catch(ex) {
@@ -149,14 +154,4 @@ export async function main() {
   }
 }
 
-export async function test() {
-  const endpoint = "AnimaWeaponItem";
-  try {
-    await typingFileFromEndpoint(endpoint);
-  } catch(ex) {
-    console.trace(ex);
-  }
-}
-
-// main();
-test();
+main();
