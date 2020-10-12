@@ -4,7 +4,7 @@ export namespace AchievementHideConditionIndexNS {
     Pagination: Pagination;
     Results:    Result[];
   }
-  
+
   export type Pagination = {
     Page:           number;
     PageNext:       number;
@@ -14,14 +14,14 @@ export namespace AchievementHideConditionIndexNS {
     ResultsPerPage: number;
     ResultsTotal:   number;
   }
-  
+
   export type Result = {
     ID:   number;
     Icon: null;
     Name: null;
     Url:  string;
   }
-  
+
 }
 
 export type Index = AchievementHideConditionIndexNS.AchievementHideConditionIndex;
@@ -36,15 +36,15 @@ export namespace AchievementHideConditionNS {
     Patch:            null;
     Url:              string;
   }
-  
+
   export type GameContentLinks = {
     Achievement: Achievement;
   }
-  
+
   export type Achievement = {
     AchievementHideCondition: number[];
   }
-  
+
 }
 
 export type AchievementHideCondition = AchievementHideConditionNS.AchievementHideCondition;
